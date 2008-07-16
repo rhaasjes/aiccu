@@ -86,7 +86,7 @@ ifeq ($(shell echo "A${RPM_BUILD_ROOT}"),A)
 	@cp doc/HOWTO  ${DESTDIR}${dirdoc}
 	@echo "Installing Debian-style init.d"
 	@mkdir -p ${DESTDIR}${diretc}init.d
-	@cp doc/${PROJECT}.init.debian ${DESTDIR}${diretc}init.d/${PROJECT}
+#	@cp doc/${PROJECT}.init.debian ${DESTDIR}${diretc}init.d/${PROJECT}
 else
 	@echo "Installing Redhat-style init.d"
 	@mkdir -p ${DESTDIR}${diretc}init.d

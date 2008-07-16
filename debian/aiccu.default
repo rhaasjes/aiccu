@@ -1,0 +1,6 @@
+# Whether to start aiccu during system startup (true) or not (false).
+BACKGROUND="true"
+
+# Specify additional command-line options for aiccu startup.
+OPTIONS=""
+

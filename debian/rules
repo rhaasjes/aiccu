@@ -6,9 +6,6 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-# This is the debhelper compatability version to use.
-export DH_COMPAT=4
-
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
@@ -19,18 +16,17 @@ build: build-stamp
 
 build-stamp: configure-stamp 
 	dh_testdir
-
-	# Add here commands to compile the package.
 	$(MAKE)
-
 	touch build-stamp
 
 clean:
 	dh_testdir
 	rm -f build-stamp configure-stamp
 
-	# Add here commands to clean up after the build process.
-	-$(MAKE) clean
+	$(MAKE) clean
+
+	# Fix permissions of configuration file
+	chmod a-x `pwd`/doc/aiccu.conf
 
 	dh_clean
 
@@ -40,8 +36,10 @@ install: build
 	dh_clean -k
 	dh_installdirs
 
-	# Add here commands to install the package into debian/aiccu
 	$(MAKE) DESTDIR=`pwd`/debian/aiccu install
+
+	# The license is already duplicated in debian/copyright
+	rm `pwd`/debian/aiccu/usr/share/doc/aiccu/LICENSE
 
 # Build architecture-independent files here.
 binary-indep: build install
@@ -56,22 +54,16 @@ binary-arch: build install
 	dh_installexamples doc/aiccu.conf
 	dh_installmenu
 #	dh_installlogrotate
-#	dh_installemacsen
-#	dh_installpam
-#	dh_installmime
-	dh_installinit -- defaults 16 80
+	dh_installinit
 	dh_installcron
 	dh_installman
 	dh_installinfo
-#	dh_undocumented
 	dh_installchangelogs 
 	dh_link
 	dh_strip
 	dh_compress
 	dh_fixperms
-#	dh_makeshlibs
 	dh_installdeb
-#	dh_perl
 	dh_shlibdeps
 	dh_gencontrol
 	dh_md5sums

@@ -1,18 +1,21 @@
 Source: aiccu
 Section: net
 Priority: optional
-Maintainer: SixXS Staff <info@sixxs.net>
-Build-Depends: debhelper (>> 3.0.0), libgnutls-dev
+Maintainer: Philipp Kern <pkern@debian.org>
+Build-Depends: debhelper (>= 4.0.0), po-debconf, libgnutls-dev, docbook-to-man
 Standards-Version: 3.7.2
+VCS-Git: git://git.debian.org/git/users/pkern/aiccu.git
+VCS-Browser: http://git.debian.org/?p=users/pkern/aiccu.git;a=summary
+Homepage: http://www.sixxs.net/tools/aiccu/
 
 Package: aiccu
 Architecture: any
-Depends: ${shlibs:Depends}, iputils-ping, iputils-tracepath, iproute, debconf, lsb-base (>= 1.3-9ubuntu2), gawk | awk, libgnutls13
-Recommends: ntpdate | ntp
+Depends: ${shlibs:Depends}, iputils-ping, iputils-tracepath, iproute, debconf, lsb-base
+Recommends: ntpdate | ntp | time-daemon
 Description: SixXS Automatic IPv6 Connectivity Client Utility
- This client automatically gives one IPv6 connectivity
- without having to manually configure interfaces etc.
- One does need a SixXS account and at least a tunnel. These
- can be freely & gratis requested from the SixXS website.
- For more information about SixXS check http://www.sixxs.net
+ This client configures IPv6 connectivity without having to
+ manually configure interfaces etc. A SixXS account or an account
+ of another supported tunnel broker and at least one tunnel are
+ required. These can be freely requested from the SixXS website
+ at no cost. For more information about SixXS check their homepage.
 

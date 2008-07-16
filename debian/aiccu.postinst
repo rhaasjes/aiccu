@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/bash -e
 
 CONFIGFILE="/etc/aiccu.conf"
 TMPCONF=/etc/aiccu.conf.dpkg-tmp
@@ -59,7 +59,13 @@ if [ "$DEFAULTCONFIG" != "false" -o ! -e "$CONFIGFILE" ]; then
 	echo $CTLINFO >> $TMPCONF
 
 	# Replace the example lines so that they become normals
-	sed -e "s/^#username .*/username $USERNAME/; s/^#password .*/password $PASSWORD/; s/^#protocol .*/protocol $PROTO/; s/^#server .*/server $SERVER/; s/^#tunnel_id .*/tunnel_id $TUNNEL/;" < $EXAMPLE >> $TMPCONF
+	sed -e "
+	/^#username /c username $USERNAME
+	/^#password /c password $PASSWORD
+	/^#protocol /c protocol $PROTO
+	/^#server /c server $SERVER
+	/^#tunnel_id /c tunnel_id $TUNNEL
+	" < $EXAMPLE >> $TMPCONF
 
 # Modify the existing one
 else
@@ -98,11 +104,19 @@ else
 		fi
 	fi
 
-	sed -e "s/^username .*/username $USERNAME/; s/^password .*/password $PASSWORD/; s/^protocol .*/protocol $PROTO/; s/^server .*/server $SERVER/; s/^tunnel_id .*/tunnel_id $TUNNEL/;" < $CONFIGFILE >> $TMPCONF
+	sed -e "
+	/^username /c username $USERNAME
+	/^password /c password $PASSWORD
+	/^protocol /c protocol $PROTO
+	/^server /c server $SERVER
+	/^tunnel_id /c tunnel_id $TUNNEL
+	" < $CONFIGFILE >> $TMPCONF
 fi
 
 # Move it into place
 mv -f $TMPCONF $CONFIGFILE
 # Just in case, make sure the permissions are perfect and dandy
 chmod 600 $CONFIGFILE
+
+#DEBHELPER#
 

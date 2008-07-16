@@ -145,11 +145,6 @@ all: aiccu
 
 aiccu:	$(OBJS) ${SRCS} ${INCS}
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(OBJS)
-ifeq ($(shell echo $(CFLAGS) | grep -c "DEBUG"),0)
-ifeq ($(shell echo "$(RPM_OPT_FLAGS)" | wc -c),1)
-	strip $@
-endif
-endif
 
 clean:
 	$(RM) -f $(OBJS) aiccu

@@ -1,0 +1,132 @@
+# translation of aiccu debconf to Portuguese
+# Portuguese translation of aiccu's debconf messages.
+# Copyright (C) 2007
+# This file is distributed under the same license as the aiccu package.
+#
+# Ricardo Silva <ardoric@gmail.com>, 2007.
+# Américo Monteiro <a_monteiro@netcabo.pt>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: aiccu 20070115-3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-25 04:30+0200\n"
+"PO-Revision-Date: 2007-09-26 22:32+0100\n"
+"Last-Translator: Américo Monteiro <a_monteiro@netcabo.pt>\n"
+"Language-Team: Portuguese <traduz@debianpt.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Aiccu username:"
+msgstr "Nome de utilizador do Aiccu:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"To successfully connect, you must provide your SixXS username. This is the "
+"same username you use to login to the sixxs.net web site."
+msgstr ""
+"Para se ligar com sucesso, você tem de indicar o seu nome de utilizador "
+"SixXS. Este é o mesmo nome de utilizador que usa para se autenticar no "
+"website sixxs.net."
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid "Aiccu password:"
+msgstr "Password do Aiccu:"
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid ""
+"To successfully connect, you must provide your SixXS password. This is the "
+"same password you use to login to the sixxs.net web site."
+msgstr ""
+"Para se ligar com sucesso, você tem de indicar a sua password SixXS. Esta é a "
+"mesma password que usa para se autenticar no website sixxs.net."
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Tunnel broker:"
+msgstr "Tunnel Broker:"
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Please select the tunnel broker you would like to use."
+msgstr "Por favor escolha o Tunnel Broker que deseja utilizar."
+
+#. Type: select
+#. Description
+#: ../templates:5001
+msgid "Tunnel name:"
+msgstr "Nome do túnel:"
+
+#. Type: select
+#. Description
+#: ../templates:5001
+msgid ""
+"If more than one tunnel is configured for your account, please specify which "
+"one should be automatically activated."
+msgstr ""
+"Se mais de que um tunnel está configurado na sua conta, por favor especifique "
+"qual deles deve ser automaticamente activado."
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid "Re-check authentication details?"
+msgstr "Voltar a verificar detalhes de autenticação?"
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid ""
+"The authentication details you specified appear to be incorrect. You should "
+"try to log in on the tunnel broker website and contact the site "
+"administrators."
+msgstr ""
+"Os detalhes de autenticação que especificou parecem estar incorrectos. Você "
+"deverá tentar autenticar-se no website tunnel broker e contactar os "
+"administradores do site."
+
+#. Type: error
+#. Description
+#: ../templates:7001
+msgid "No tunnel brokers available"
+msgstr "Nenhum Tunnel Broker disponível"
+
+#. Type: error
+#. Description
+#: ../templates:7001
+msgid ""
+"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
+"This most likely indicates a DNS configuration problem."
+msgstr ""
+"Não pode ser obtido nenhum Tunnel Broker pelo DNS (_aiccu + _aiccu.sixxs.net"
+"). O mais provável é indicar que existe um problema com a configuração DNS."
+
+#. Type: error
+#. Description
+#: ../templates:8001
+msgid "No tunnels available"
+msgstr "Nenhum túnel disponível"
+
+#. Type: error
+#. Description
+#: ../templates:8001
+msgid ""
+"No tunnels are currently available to you. Please connect to the SixXS "
+"website at http://www.sixxs.net/ to request a tunnel for your account."
+msgstr ""
+"De momento não há nenhum túnel disponível para si. Por favor ligue-se ao site "
+"da SixXS em http://www.sixxs.net/ para pedir um túnel para a sua conta."
+

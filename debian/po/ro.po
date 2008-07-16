@@ -1,0 +1,129 @@
+# Romanian translation for package aiccu.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the aiccu package.
+# Ruset Zeno <ruset.zeno@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: aiccu\n"
+"Report-Msgid-Bugs-To: pkern@debian.org\n"
+"POT-Creation-Date: 2007-03-24 10:30+0100\n"
+"PO-Revision-Date: 2007-04-06 02:59+0300\n"
+"Last-Translator: Ruset Zeno <ruset.zeno@gmail.com>\n"
+"Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Aiccu username:"
+msgstr "Numele de utilizator Aiccu:"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"To successfully connect, you must provide your SixXS username. This is the "
+"same username you use to login to the sixxs.net web site."
+msgstr ""
+"Pentru conectare trebuie să dispuneţi de un nume de utilizator SixXS. Acesta "
+"este acelaşi nume de utilizator pe care îl folosiţi la accesul sitului de "
+"web sixxs.net."
+
+#. Type: password
+#. Description
+#: ../templates:2001
+msgid "Aiccu password:"
+msgstr "Parola Aiccu:"
+
+#. Type: password
+#. Description
+#: ../templates:2001
+msgid ""
+"To successfully connect, you must provide your SixXS password. This is the "
+"same password you use to login to the sixxs.net web site."
+msgstr ""
+"Pentru conectare trebuie să dispuneţi de parola dumneavoastră SixXS. Aceasta "
+"este aceaşi parolă pe care o utilizaţi la accesul sitului web sixxs.net."
+
+#. Type: select
+#. Description
+#: ../templates:3001
+msgid "Tunnel broker:"
+msgstr "Negociatorul tunelului:"
+
+#. Type: select
+#. Description
+#: ../templates:3001
+msgid "Please select the tunnel broker you would like to use."
+msgstr "Selectaţi negociatorul de tunel pe care doriţi să-l utilizaţi."
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Tunnel name:"
+msgstr "Numele tunelului:"
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid ""
+"If more than one tunnel is configured for your account, please specify which "
+"one should be automatically activated."
+msgstr ""
+"Dacă pentru contul dumneavoastră sunt configurate mai multe tunele, "
+"precizaţi care tunel trebuie activat automat."
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "Re-check authentication details?"
+msgstr "Verificaţi din nou detaliile de autentificare?"
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid ""
+"The authentication details you specified appear to be incorrect. You should "
+"try to log in on the tunnel broker website and contact the site "
+"administrators."
+msgstr ""
+"Detaliile de autentificare precizate de dumneavoastră par a fi incorecte. Va "
+"trebui să încercaţi să accesaţi situl web al negociatorului de tunel şi să "
+"contactaţi administratorii sitului."
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "No tunnel brokers available"
+msgstr "Nici un negociator de tunel disponibil"
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid ""
+"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
+"This most likely indicates a DNS configuration problem."
+msgstr ""
+"Nici un negociator de tunel nu poate fi obţinut de la DNS (_aiccu + aiccu."
+"sixxs.net). De cele mai multe ori acesta indică o problemă de configurarea a "
+"DNS-ului."
+
+#. Type: error
+#. Description
+#: ../templates:7001
+msgid "No tunnels available"
+msgstr "Nici un tunel disponibil"
+
+#. Type: error
+#. Description
+#: ../templates:7001
+msgid ""
+"No tunnels are currently available to you. Please connect to the SixXS "
+"website at http://www.sixxs.net/ to request a tunnel for your account."
+msgstr ""
+"Nici un tunel nu este momentan disponibil pentru dumneavoastră. Contactaţi "
+"situl web SixXS la http://www.sixxs.net/ pentru a cere un pentru contul "
+"dumneavoastră."

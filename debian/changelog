@@ -1,3 +1,104 @@
+aiccu (20070115-9) unstable; urgency=medium
+
+  * Do not leave Default-{Start,Stop} empty.  (Closes: #487194)
+
+ -- Philipp Kern <pkern@debian.org>  Wed, 16 Jul 2008 16:11:35 +0200
+
+aiccu (20070115-8) unstable; urgency=low
+
+  * Added Finnish debconf translation, thanks to Esko Arajärvi.
+    (Closes: #468229)
+  * Convert VCS URLs to git.
+
+ -- Philipp Kern <pkern@debian.org>  Fri, 06 Jun 2008 13:58:36 +0200
+
+aiccu (20070115-7) unstable; urgency=low
+
+  * Moved the URL to aiccu's homepage into the source stanza of
+    `debian/control' and adopted the new scheme for VCS headers.
+  * Do not ask twice for tunnel broker information. (Closes: #446031)
+  * Only request broker information once. (Closes: #446033)
+  * Auto-select the currently used broker. (Closes: #445671)
+
+ -- Philipp Kern <pkern@debian.org>  Mon,  5 Nov 2007 00:24:44 +0100
+
+aiccu (20070115-6) unstable; urgency=low
+
+  * Added `time-daemon' to Recommends. (Closes: #445066)
+  * Updated the Portuguese debconf translation, thanks to
+    Américo Monteiro (Closes: #444217)
+  * Added bzr VCS links to `debian/control'.
+  * Added a watch file.
+
+ -- Philipp Kern <pkern@debian.org>  Sun, 30 Sep 2007 20:47:52 +0200
+
+aiccu (20070115-5) unstable; urgency=low
+
+  * Copied upstream provided init script into debian tree and added
+    `dh_installinit' to `debian/rules'. (LP: #111223)
+  * Added a defaults file.
+  * Added `docbook-to-man' to build-depends.
+  * LSB init header, courtesy of Fedora.
+
+ -- Philipp Kern <pkern@debian.org>  Mon, 24 Sep 2007 03:13:16 +0200
+
+aiccu (20070115-4) unstable; urgency=low
+
+  * Do not set DH_COMPAT in `debian/rules'.
+  * Do not ignore failures on `make clean'.
+  * Let `dh_strip' take care of stripping the resulting binary;
+    corresponding command removed from upstream Makefile.
+    (Closes: #436398)
+
+ -- Philipp Kern <pkern@debian.org>  Wed, 05 Sep 2007 22:20:04 +0200
+
+aiccu (20070115-3) unstable; urgency=low
+
+  * Fixed the sed expression for configuration file creation which
+    did fail when special sed chars are given, thanks go to
+    Michael Biehunko for the patch
+
+ -- Philipp Kern <pkern@debian.org>  Tue,  8 May 2007 11:51:59 +0200
+
+aiccu (20070115-2) unstable; urgency=low
+
+  * Debconf templates reviewed by the debian-l10n-english team
+    (Closes: #415548)
+  * New Debconf translations:
+    - Galician (Closes: #416080)
+    - Brazilian Portuguese (Closes: #416349)
+    - French (Closes: #416733)
+    - German (Closes: #416163)
+    - Portuguese (Closes: #416794)
+    - Czech (Closes: #416937)
+    - Dutch (Closes: #417843)
+    - Tamil (Closes: #417947)
+    - Malayalam (Closes: #418028)
+    - Romanian (Closes: #418145)
+    - Italian (Closes: #418172, #418250)
+  * Reworded the description, thanks to Hamish Moffatt
+
+ -- Philipp Kern <pkern@debian.org>  Sat, 31 Mar 2007 18:49:34 +0200
+
+aiccu (20070115-1) unstable; urgency=low
+
+  * Upload package with me as an interim maintainer. Anand orphaned this
+    package in private mail to me. (Closes: #407026)
+  * Upload to `main' because of licence change in 20070107.
+    (Closes: #388759)
+  * New upstream version with the packaging based upon the one provided
+    by upstream in the source tarball. aiccu is now up-to-date which
+    should fix issues when connecting to SixXS.
+    (Closes: #405606, #405610, #379766)
+  * Slight packaging changes: I made the packaging non-native and changed
+    some permission bits, dependencies and files to conform to the
+    Debian standards and to fix various Lintian warnings and errors.
+    Please see the diff for details.
+  * The amd64 binary package is included in the upload.
+    (Closes: #366002)
+
+ -- Philipp Kern <pkern@debian.org>  Wed,  7 Feb 2007 02:51:36 +0100
+
 aiccu (20070115) stable; urgency=medium
   * Fixup in Debian init script (based on original patch by Bernhard Schmidt).
   * Change in redirections so that errors don't show in debconf menu's etc.
