@@ -1,0 +1,126 @@
+# Swedish debconf translation of aicc
+# Copyright (C) 2009 Martin Bagge <brother@bsnet.se>
+# This file is distributed under the same license as the aicc package.
+# Martin Bagge <brother@bsnet.se>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: aiccu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-18 04:31+0200\n"
+"PO-Revision-Date: 2009-01-04 21:25+0100\n"
+"Last-Translator: Martin Bagge <brother@bsnet.se>\n"
+"Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Aiccu username:"
+msgstr "Användarnamn:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"To successfully connect, you must provide your SixXS username. This is the "
+"same username you use to login to the sixxs.net web site."
+msgstr ""
+"För att kunna ansluta måste du ange ditt SixXS-användarnamn. Det är samma "
+"användarnamn som du använder för att logga in på webbplatsen sixxs.net."
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid "Aiccu password:"
+msgstr "Lösenord:"
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid ""
+"To successfully connect, you must provide your SixXS password. This is the "
+"same password you use to login to the sixxs.net web site."
+msgstr ""
+"För att kunna ansluta måste du ange ditt SixXS-lösenord. Det är samma "
+"lösenord som du använder för att logga in på webbplatsen sixxs.net."
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Tunnel broker:"
+msgstr "Tunnelhanterare:"
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Please select the tunnel broker you would like to use."
+msgstr "Välj vilken tunnelhanterare du vill använda."
+
+#. Type: select
+#. Description
+#: ../templates:5001
+msgid "Tunnel name:"
+msgstr "Tunnelnamn:"
+
+#. Type: select
+#. Description
+#: ../templates:5001
+msgid ""
+"If more than one tunnel is configured for your account, please specify which "
+"one should be automatically activated."
+msgstr ""
+"Om det finns mer än en tunnel för ditt konto måste du välja vilken som ska "
+"aktiveras automatiskt."
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid "Re-check authentication details?"
+msgstr "Kontrollera identitetsinställningarna igen?"
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid ""
+"The authentication details you specified appear to be incorrect. You should "
+"try to log in on the tunnel broker website and contact the site "
+"administrators."
+msgstr ""
+"Identitetsinställningarna som du angav verkar inte fungera. Du bör logga in "
+"på webbplatsen för tunnelhanteringen och kontakta en administratör."
+
+#. Type: error
+#. Description
+#: ../templates:7001
+msgid "No tunnel brokers available"
+msgstr "Inga tunnelhanterar tillgängliga."
+
+#. Type: error
+#. Description
+#: ../templates:7001
+msgid ""
+"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
+"This most likely indicates a DNS configuration problem."
+msgstr ""
+"Kunde inte hämta tunnelhanterare från DNS (_aiccu+ aiccu.sixxss.net). Detta "
+"tyder på att DNS-inställningarna är felaktiga."
+
+#. Type: error
+#. Description
+#: ../templates:8001
+msgid "No tunnels available"
+msgstr "Inga tunnlar tillgängliga"
+
+#. Type: error
+#. Description
+#: ../templates:8001
+msgid ""
+"No tunnels are currently available to you. Please connect to the SixXS "
+"website at http://www.sixxs.net/ to request a tunnel for your account."
+msgstr ""
+"Det finns för tillfället inga tunnlar tillgängliga för dig. Anslut till "
+"SixXS webbplats på http://www.sixxs.net och begär en tunnel för ditt konto."

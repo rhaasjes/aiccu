@@ -6,6 +6,8 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+include /usr/share/quilt/quilt.make
+
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
@@ -14,12 +16,12 @@ configure-stamp:
 
 build: build-stamp
 
-build-stamp: configure-stamp 
+build-stamp: $(QUILT_STAMPFN) configure-stamp 
 	dh_testdir
 	$(MAKE)
 	touch build-stamp
 
-clean:
+clean: unpatch
 	dh_testdir
 	rm -f build-stamp configure-stamp
 

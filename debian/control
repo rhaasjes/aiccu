@@ -1,16 +1,18 @@
 Source: aiccu
 Section: net
 Priority: optional
-Maintainer: Philipp Kern <pkern@debian.org>
-Build-Depends: debhelper (>= 4.0.0), po-debconf, libgnutls-dev, docbook-to-man
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 4.0.0), po-debconf, libgnutls-dev, docbook-to-man, quilt
 Standards-Version: 3.7.2
-VCS-Git: git://git.debian.org/git/users/pkern/aiccu.git
-VCS-Browser: http://git.debian.org/?p=users/pkern/aiccu.git;a=summary
 Homepage: http://www.sixxs.net/tools/aiccu/
 
 Package: aiccu
 Architecture: any
-Depends: ${shlibs:Depends}, iputils-ping, iputils-tracepath, iproute, debconf, lsb-base
+Depends: ${misc:Depends}, ${shlibs:Depends}, debconf, lsb-base,
+ iputils-ping [!kfreebsd-i386 !kfreebsd-amd64],
+ iputils-tracepath [!kfreebsd-i386 !kfreebsd-amd64],
+ iproute [!kfreebsd-i386 !kfreebsd-amd64],
+ freebsd-net-tools [kfreebsd-i386 kfreebsd-amd64]
 Recommends: ntpdate | ntp | time-daemon
 Description: SixXS Automatic IPv6 Connectivity Client Utility
  This client configures IPv6 connectivity without having to

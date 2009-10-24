@@ -1,3 +1,15 @@
+aiccu (20070115-10) unstable; urgency=low
+
+  * QA upload.
+  * Set maintainer to `Debian QA group'.
+  * Build-depend on quilt and convert direct patches to quilt patches.
+  * Drop VCS-* headers.
+  * Add support for Debian GNU/kFreeBSD, thanks to Axel Beckert.
+  * Added Swedish and Russian Debconf translations, thanks to
+    Martin Bagge and Yuri Kozlov.  (Closes: #510800, #545217)
+
+ -- Philipp Kern <pkern@debian.org>  Sat, 24 Oct 2009 17:32:37 +0200
+
 aiccu (20070115-9) unstable; urgency=medium
 
   * Do not leave Default-{Start,Stop} empty.  (Closes: #487194)

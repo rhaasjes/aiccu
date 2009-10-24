@@ -1,0 +1,131 @@
+# translation of aiccu_20070115-9_ru.po to Russian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yuri Kozlov <yuray@komyakino.ru>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: aiccu 20070115-9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-18 04:31+0200\n"
+"PO-Revision-Date: 2009-08-26 19:24+0400\n"
+"Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
+"Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Aiccu username:"
+msgstr "Имя пользователя для aiccu:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"To successfully connect, you must provide your SixXS username. This is the "
+"same username you use to login to the sixxs.net web site."
+msgstr ""
+"Для подключения требуется указать имя пользователя в SixXS. Это "
+"то же самое имя пользователя, которым вы входите на веб-сайт "
+"sixxs.net."
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid "Aiccu password:"
+msgstr "Пароль к aiccu:"
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid ""
+"To successfully connect, you must provide your SixXS password. This is the "
+"same password you use to login to the sixxs.net web site."
+msgstr ""
+"Для подключения требуется указать пароль в SixXS. Это "
+"тот же самый пароль, который вы используете на веб-сайте "
+"sixxs.net."
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Tunnel broker:"
+msgstr "Туннель-брокер:"
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Please select the tunnel broker you would like to use."
+msgstr "Укажите туннель-брокер, который хотите использовать."
+
+#. Type: select
+#. Description
+#: ../templates:5001
+msgid "Tunnel name:"
+msgstr "Имя туннеля:"
+
+#. Type: select
+#. Description
+#: ../templates:5001
+msgid ""
+"If more than one tunnel is configured for your account, please specify which "
+"one should be automatically activated."
+msgstr ""
+"Если для учётной записи настроено более одного туннеля, то укажите "
+"какой из них должен активироваться автоматически."
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid "Re-check authentication details?"
+msgstr "Перепроверить данные аутентификации?"
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid ""
+"The authentication details you specified appear to be incorrect. You should "
+"try to log in on the tunnel broker website and contact the site "
+"administrators."
+msgstr ""
+"Указанные вами данные аутентификации, кажется, неверны. "
+"Попробуйте войти на веб-сайт туннель-брокера и связаться с "
+"администратором."
+
+#. Type: error
+#. Description
+#: ../templates:7001
+msgid "No tunnel brokers available"
+msgstr "Нет доступных туннель-брокеров"
+
+#. Type: error
+#. Description
+#: ../templates:7001
+msgid ""
+"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
+"This most likely indicates a DNS configuration problem."
+msgstr ""
+"Невозможно получить туннель-брокеры из DNS (_aiccu + _aiccu.sixxs.net). "
+"Обычно это указывает на проблему в настройках DNS."
+
+#. Type: error
+#. Description
+#: ../templates:8001
+msgid "No tunnels available"
+msgstr "Нет доступных туннелей"
+
+#. Type: error
+#. Description
+#: ../templates:8001
+msgid ""
+"No tunnels are currently available to you. Please connect to the SixXS "
+"website at http://www.sixxs.net/ to request a tunnel for your account."
+msgstr ""
+"К вам нет, в данный момент, доступных туннелей. Войдите на веб-сайт SixXS "
+"http://www.sixxs.net/ и запросите туннель для вашей учётной записи."
+
