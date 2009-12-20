@@ -2,3 +2,4 @@
 02_skip-strip.patch
 03_no-quiet-gcc.patch
 04_kfreebsd.patch
+05_spelling-error.patch
