@@ -2,7 +2,7 @@ Source: aiccu
 Section: net
 Priority: optional
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Build-Depends: debhelper (>= 4.0.0), po-debconf, libgnutls-dev, docbook-to-man, quilt
+Build-Depends: debhelper (>= 7), po-debconf, libgnutls-dev, docbook-to-man, quilt
 Standards-Version: 3.7.2
 Homepage: http://www.sixxs.net/tools/aiccu/
 
