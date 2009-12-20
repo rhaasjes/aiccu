@@ -1,4 +1,6 @@
-#!/bin/bash -e
+#!/bin/bash 
+
+set -e
 
 CONFIGFILE="/etc/aiccu.conf"
 TMPCONF=/etc/aiccu.conf.dpkg-tmp
