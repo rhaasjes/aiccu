@@ -4,7 +4,7 @@ set -e
 
 CONFIGFILE="/etc/aiccu.conf"
 TMPCONF=/etc/aiccu.conf.dpkg-tmp
-EXAMPLE=/usr/share/doc/aiccu/examples/aiccu.conf
+TEMPLATE=/usr/share/aiccu/conf-templates/aiccu.conf
 CTLINFO="# Under control from debconf, please use 'dpkg-reconfigure aiccu' to reconfigure"
 BINARY=/usr/sbin/aiccu
 
@@ -47,7 +47,7 @@ fi
 umask 077
 
 # Check if the /etc/aiccu.conf is actually the example
-if [ diff -q $EXAMPLE $CONFIGFILE 2>/dev/null >/dev/null ]; then
+if diff -q $EXAMPLE $CONFIGFILE; then
 	DEFAULTCONFIG="true"
 else
 	DEFAULTCONFIG="false"
@@ -67,7 +67,7 @@ if [ "$DEFAULTCONFIG" != "false" -o ! -e "$CONFIGFILE" ]; then
 	/^#protocol /c protocol $PROTO
 	/^#server /c server $SERVER
 	/^#tunnel_id /c tunnel_id $TUNNEL
-	" < $EXAMPLE >> $TMPCONF
+	" < $TEMPLATE >> $TMPCONF
 
 # Modify the existing one
 else

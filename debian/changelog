@@ -2,6 +2,8 @@ aiccu (20070115-11) unstable; urgency=low
 
   * New maintainer. (Closes: #529185: ITA: aiccu -- SixXS Automatic IPv6
     Connectivity Client Utility)
+  * Install aiccu.conf to usr/share/aiccu/conf-templates/ 
+    and use in postinst (Closes: #559683) - Thanks to Patrick Schoenfeld
   * Added VCS-Headers
   * Update aiccu.conf permissions (from buildscript)
   * Fixed spelling-error-in-binary
@@ -12,7 +14,7 @@ aiccu (20070115-11) unstable; urgency=low
   * Upgraded standards-version to 3.8.3
   * Added upstream changelog
 
- -- Reinier Haasjes <reinier@haasjes.com>  Mon, 21 Dec 2009 22:02:33 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Mon, 21 Dec 2009 22:44:03 +0100
 
 aiccu (20070115-10) unstable; urgency=low
 
