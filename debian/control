@@ -5,6 +5,8 @@ Maintainer: Reinier Haasjes <reinier@haasjes.com>
 Build-Depends: debhelper (>= 7), po-debconf, libgnutls-dev, docbook-to-man, quilt
 Standards-Version: 3.8.3
 Homepage: http://www.sixxs.net/tools/aiccu/
+Vcs-Browser: http://repo.or.cz/r/aiccu.git
+Vcs-Git: git://repo.or.cz/aiccu.git
 
 Package: aiccu
 Architecture: any
