@@ -1,3 +1,19 @@
+aiccu (20070115-11) unstable; urgency=low
+
+  * New maintainer. (Closes: #529185: ITA: aiccu -- SixXS Automatic IPv6
+    Connectivity Client Utility)
+  * Added VCS-Headers
+  * Update aiccu.conf permissions (from buildscript)
+  * Fixed spelling-error-in-binary
+  * Fixed maintainer-script-empty preinst
+  * Fixed maintainer-script-without-set-e postinst
+  * Upgraded compat version to 7
+  * Added debian/README.source
+  * Upgraded standards-version to 3.8.3
+  * Added upstream changelog
+
+ -- Reinier Haasjes <reinier@haasjes.com>  Mon, 21 Dec 2009 22:02:33 +0100
+
 aiccu (20070115-10) unstable; urgency=low
 
   * QA upload.
