@@ -14,8 +14,9 @@ aiccu (20070115-11) unstable; urgency=low
   * Added debian/README.source
   * Upgraded standards-version to 3.8.3
   * Added upstream changelog
+  * Add dependency on ucf
 
- -- Reinier Haasjes <reinier@haasjes.com>  Sat, 26 Dec 2009 09:33:10 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Sat, 26 Dec 2009 09:40:11 +0100
 
 aiccu (20070115-10) unstable; urgency=low
 
