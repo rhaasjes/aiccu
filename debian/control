@@ -10,7 +10,7 @@ Vcs-Git: git://repo.or.cz/aiccu.git
 
 Package: aiccu
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, debconf, lsb-base, ucf
+Depends: ${misc:Depends}, ${shlibs:Depends}, debconf, lsb-base, ucf,
  iputils-ping [!kfreebsd-i386 !kfreebsd-amd64],
  iputils-tracepath [!kfreebsd-i386 !kfreebsd-amd64],
  iproute [!kfreebsd-i386 !kfreebsd-amd64],
