@@ -3,6 +3,7 @@
 # /etc/init.d/aiccu: start / stop AICCU
 #
 # Jeroen Massar <jeroen@sixxs.net>
+exit 0
 
 ### BEGIN INIT INFO
 # Provides: aiccu
