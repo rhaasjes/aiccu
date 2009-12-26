@@ -11,7 +11,7 @@ CTLINFO="# Under control from debconf, please use 'dpkg-reconfigure aiccu' to re
 BINARY=/usr/sbin/aiccu
 
 case "$1" in
-    configure)
+    configure|reconfigure)
     # Load debconf libary
     . /usr/share/debconf/confmodule
 
@@ -78,7 +78,7 @@ case "$1" in
     # Just in case, make sure the permissions are perfect and dandy
     chmod 600 $CONFIGFILE
 
-    ### END configure ###
+    ### END (re)configure ###
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
