@@ -120,5 +120,5 @@ mv -f $TMPCONF $CONFIGFILE
 # Just in case, make sure the permissions are perfect and dandy
 chmod 600 $CONFIGFILE
 
-#DEBHELPER#
+#-DEBHELPER-#
 
