@@ -8,69 +8,30 @@
 
 include /usr/share/quilt/quilt.make
 
-configure: configure-stamp
-configure-stamp:
-	dh_testdir
+%:
+	dh $@
 
-	touch configure-stamp
-
-build: build-stamp
-
-build-stamp: $(QUILT_STAMPFN) configure-stamp 
-	dh_testdir
-	$(MAKE)
-	touch build-stamp
+build: $(QUILT_STAMPFN)
+	dh $@
 
 clean: unpatch
-	dh_testdir
-	rm -f build-stamp configure-stamp
+	dh $@
+#	dh_testdir
+#	rm -f build-stamp configure-stamp
+#
+#	$(MAKE) clean
+#
+#	# Fix permissions of configuration file
+#	chmod a-x `pwd`/doc/aiccu.conf
+#
+#	dh_clean
 
-	$(MAKE) clean
-
-	# Fix permissions of configuration file
-	chmod a-x `pwd`/doc/aiccu.conf
-
-	dh_clean
+binary-arch: build install
+	dh $@
 
 install: build
-	dh_testdir
-	dh_testroot
-	dh_prep
-	dh_installdirs
-
-	$(MAKE) DESTDIR=`pwd`/debian/aiccu install
-
+	dh $@
 	# The license is already duplicated in debian/copyright
 	rm `pwd`/debian/aiccu/usr/share/doc/aiccu/LICENSE
 
-# Build architecture-independent files here.
-binary-indep: build install
-# We have nothing to do by default.
-
-# Build architecture-dependent files here.
-binary-arch: build install
-	dh_testdir
-	dh_testroot
-	dh_installdebconf
-	dh_installdocs
-	dh_installexamples doc/aiccu.conf
-	dh_installmenu
-#	dh_installlogrotate
-	dh_installinit
-	dh_installcron
-	dh_installman
-	dh_installinfo
-	dh_installchangelogs 
-	dh_link
-	dh_strip
-	dh_compress
-	dh_fixperms
-	dh_installdeb
-	dh_shlibdeps
-	dh_gencontrol
-	dh_md5sums
-	dh_builddeb
-
-binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary install configure
-
+binary: binary-arch binary-indep
