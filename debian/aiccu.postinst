@@ -16,20 +16,20 @@ case "$1" in
     . /usr/share/debconf/confmodule
 
     ### find out what the user answered.
-    db_get aiccu/username
+    db_get aiccu/username || true
     USERNAME="$RET"
 
-    db_get aiccu/password
+    db_get aiccu/password || true
     PASSWORD="$RET"
 
     AICCUOUT=$($BINARY brokers)
 
-    db_get aiccu/brokername
+    db_get aiccu/brokername || true
     URL=$(echo "$AICCUOUT" | grep "$RET")
     PROTO=$(echo $URL | cut -f2 -d'|' | cut -f1 -d:)
     SERVER=$(echo $URL | cut -f2 -d'|' | cut -f3 -d/)
 
-    db_get aiccu/tunnelname
+    db_get aiccu/tunnelname || true
     TUNNEL="$RET"
 
     db_stop
