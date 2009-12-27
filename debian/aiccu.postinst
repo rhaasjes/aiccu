@@ -59,11 +59,17 @@ case "$1" in
     # Replace the example lines so that they become normals
     sed -e "
         /^#username /c username $USERNAME
-            /^#password /c password $PASSWORD
             /^#protocol /c protocol $PROTO
             /^#server /c server $SERVER
-            /^#tunnel_id /c tunnel_id $TUNNEL
             " < $TEMPLATE >> $TMPCONF
+
+    if [ "$PASSWORD" != "" ]; then
+        sed -i -e "/^#password /c password $PASSWORD" $TMPCONF
+    fi
+
+    if [ "$TUNNEL" != "" ]; then
+        sed -i -e "/^#tunnel_id /c tunnel_id $TUNNEL" $TMPCONF
+    fi
 
     # Put config file into place
     if [ -f $CONFIGFILE ]; then
