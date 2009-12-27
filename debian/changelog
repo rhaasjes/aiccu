@@ -4,9 +4,10 @@ aiccu (20070115-11) unstable; urgency=low
     Connectivity Client Utility)
   * Install aiccu.conf to usr/share/aiccu/conf-templates/ 
     and use in postinst (Closes: #559683) - Thanks to Patrick Schoenfeld
+  * Fix "leaves password in debconf database" add db_reset to postinst
+    (Closes: #512674)
   * Minimize rules file - Thanks to Patrick Schoenfeld
   * Added VCS-Headers
-  * Update aiccu.conf permissions (from buildscript)
   * Fixed spelling-error-in-binary
   * Fixed maintainer-script-empty preinst
   * Fixed maintainer-script-without-set-e postinst
@@ -16,7 +17,7 @@ aiccu (20070115-11) unstable; urgency=low
   * Added upstream changelog
   * Add dependency on ucf
 
- -- Reinier Haasjes <reinier@haasjes.com>  Sat, 26 Dec 2009 09:40:11 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Sun, 27 Dec 2009 10:01:37 +0100
 
 aiccu (20070115-10) unstable; urgency=low
 

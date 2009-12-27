@@ -76,6 +76,9 @@ case "$1" in
     # Just in case, make sure the permissions are perfect and dandy
     chmod 600 $CONFIGFILE
 
+    # Remove password from database
+    db_reset aiccu/password
+
     ### END (re)configure ###
     ;;
 
