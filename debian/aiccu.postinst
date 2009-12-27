@@ -32,8 +32,6 @@ case "$1" in
     db_get aiccu/tunnelname || true
     TUNNEL="$RET"
 
-    db_stop
-
     # Register configuration file with ucf
     ucfr aiccu $CONFIGFILE
 
