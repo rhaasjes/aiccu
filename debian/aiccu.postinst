@@ -37,6 +37,7 @@ case "$1" in
 
     if [ "$USERNAME" = "" ]; then
         # Not configured yet, thus skip
+        cp $TEMPLATE $CONFIGFILE
         exit 0;
     fi
 
