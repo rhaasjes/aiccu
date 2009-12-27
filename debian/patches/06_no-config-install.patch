@@ -1,0 +1,22 @@
+Do not install /etc/aiccu.conf from Makefile
+
+--- aiccu.orig/Makefile
++++ aiccu/Makefile
+@@ -79,7 +79,7 @@
+ 	@echo "Configuration..."
+ 	@mkdir -p ${DESTDIR}${diretc}
+ ifeq ($(shell echo "A${RPM_BUILD_ROOT}"),A)
+-	$(shell [ -f ${DESTDIR}${diretc}${PROJECT}.conf ] || cp -R doc/${PROJECT}.conf ${DESTDIR}${diretc}${PROJECT}.conf)
++#	$(shell [ -f ${DESTDIR}${diretc}${PROJECT}.conf ] || cp -R doc/${PROJECT}.conf ${DESTDIR}${diretc}${PROJECT}.conf)
+ 	@echo "Documentation..."
+ 	@cp doc/README ${DESTDIR}${dirdoc}
+ 	@cp doc/LICENSE ${DESTDIR}${dirdoc}
+@@ -91,7 +91,7 @@
+ 	@echo "Installing Redhat-style init.d"
+ 	@mkdir -p ${DESTDIR}${diretc}init.d
+ 	@cp doc/${PROJECT}.init.rpm ${DESTDIR}${diretc}init.d/${PROJECT}
+-	@cp doc/${PROJECT}.conf ${DESTDIR}${diretc}${PROJECT}.conf
++#	@cp doc/${PROJECT}.conf ${DESTDIR}${diretc}${PROJECT}.conf
+ endif
+ 	@echo "Installation into ${DESTDIR}/ completed"
+ 
