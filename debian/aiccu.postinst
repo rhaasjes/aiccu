@@ -2,7 +2,7 @@
 # postinst script for aiccu
 
 # Abort if any command returns an error value
-set -e
+set -ex
 
 CONFIGFILE="/etc/aiccu.conf"
 TMPCONF=/etc/aiccu.conf.dpkg-tmp
