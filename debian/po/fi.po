@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: aiccu 20070115-7\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-11-13 04:30+0100\n"
+"Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
+"POT-Creation-Date: 2009-12-28 15:48+0100\n"
 "PO-Revision-Date: 2008-02-27 22:50+0200\n"
 "Last-Translator: Esko Arajärvi <edu@iki.fi>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
@@ -21,8 +21,12 @@ msgstr "Aiccu-käyttäjätunnus:"
 #. Type: string
 #. Description
 #: ../templates:2001
-msgid "To successfully connect, you must provide your SixXS username. This is the same username you use to login to the sixxs.net web site."
-msgstr "Yhteyden ottamiseen tarvitaan SixXS-käyttäjätunnuksesi. Tämä on sama käyttäjätunnus, jota käytät sixxs.net-verkkosivulle kirjautumiseen."
+msgid ""
+"To successfully connect, you must provide your SixXS username. This is the "
+"same username you use to login to the sixxs.net web site."
+msgstr ""
+"Yhteyden ottamiseen tarvitaan SixXS-käyttäjätunnuksesi. Tämä on sama "
+"käyttäjätunnus, jota käytät sixxs.net-verkkosivulle kirjautumiseen."
 
 #. Type: password
 #. Description
@@ -33,8 +37,12 @@ msgstr "Aiccu-salasana:"
 #. Type: password
 #. Description
 #: ../templates:3001
-msgid "To successfully connect, you must provide your SixXS password. This is the same password you use to login to the sixxs.net web site."
-msgstr "Yhteyden ottamiseen tarvitaan SixXS-salasanasi. Tämä on sama salasana, jota käytät sixxs.net-verkkosivulle kirjautumiseen."
+msgid ""
+"To successfully connect, you must provide your SixXS password. This is the "
+"same password you use to login to the sixxs.net web site."
+msgstr ""
+"Yhteyden ottamiseen tarvitaan SixXS-salasanasi. Tämä on sama salasana, jota "
+"käytät sixxs.net-verkkosivulle kirjautumiseen."
 
 #. Type: select
 #. Description
@@ -57,8 +65,12 @@ msgstr "Tunnelin nimi:"
 #. Type: select
 #. Description
 #: ../templates:5001
-msgid "If more than one tunnel is configured for your account, please specify which one should be automatically activated."
-msgstr "Jos tunnuksellasi on useampia kuin yksi tunneli asetettuna, valitse mikä niistä tulisi aktivoida automaattisesti."
+msgid ""
+"If more than one tunnel is configured for your account, please specify which "
+"one should be automatically activated."
+msgstr ""
+"Jos tunnuksellasi on useampia kuin yksi tunneli asetettuna, valitse mikä "
+"niistä tulisi aktivoida automaattisesti."
 
 #. Type: boolean
 #. Description
@@ -69,8 +81,13 @@ msgstr "Tarkistetaanko kirjautumistiedot?"
 #. Type: boolean
 #. Description
 #: ../templates:6001
-msgid "The authentication details you specified appear to be incorrect. You should try to log in on the tunnel broker website and contact the site administrators."
-msgstr "Antamasi kirjautumistiedot vaikuttavat virheellisiltä. Yritä kirjautua tunneloijan verkkosivulla ja ottaa yhteyttä sivuston ylläpitäjiin."
+msgid ""
+"The authentication details you specified appear to be incorrect. You should "
+"try to log in on the tunnel broker website and contact the site "
+"administrators."
+msgstr ""
+"Antamasi kirjautumistiedot vaikuttavat virheellisiltä. Yritä kirjautua "
+"tunneloijan verkkosivulla ja ottaa yhteyttä sivuston ylläpitäjiin."
 
 #. Type: error
 #. Description
@@ -81,8 +98,12 @@ msgstr "Tunneloijia ei ole saatavilla"
 #. Type: error
 #. Description
 #: ../templates:7001
-msgid "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). This most likely indicates a DNS configuration problem."
-msgstr "DNS:stä (_aiccu + _aiccu.sixxs.net) ei saatu haettua yhtään tunneloijaa. Tämä todennäköisesti tarkoittaa ongelmaa DNS:n asetuksissa."
+msgid ""
+"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
+"This most likely indicates a DNS configuration problem."
+msgstr ""
+"DNS:stä (_aiccu + _aiccu.sixxs.net) ei saatu haettua yhtään tunneloijaa. "
+"Tämä todennäköisesti tarkoittaa ongelmaa DNS:n asetuksissa."
 
 #. Type: error
 #. Description
@@ -93,6 +114,9 @@ msgstr "Tunneleita ei ole saatavilla"
 #. Type: error
 #. Description
 #: ../templates:8001
-msgid "No tunnels are currently available to you. Please connect to the SixXS website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr "Käytettävissäsi ei ole yhtään tunnelia. Pyydä tunnelia tunnuksellesi SixXS-verkkosivulla http://www.sixxs.net/."
-
+msgid ""
+"No tunnels are currently available to you. Please connect to the SixXS "
+"website at http://www.sixxs.net/ to request a tunnel for your account."
+msgstr ""
+"Käytettävissäsi ei ole yhtään tunnelia. Pyydä tunnelia tunnuksellesi SixXS-"
+"verkkosivulla http://www.sixxs.net/."

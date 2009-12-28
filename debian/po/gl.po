@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: aiccu\n"
-"Report-Msgid-Bugs-To: pkern@debian.org\n"
-"POT-Creation-Date: 2007-03-24 10:30+0100\n"
+"Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
+"POT-Creation-Date: 2009-12-28 15:48+0100\n"
 "PO-Revision-Date: 2007-03-24 18:34+0100\n"
 "Last-Translator: Jacobo Tarrio <jtarrio@debian.org>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
@@ -16,13 +16,13 @@ msgstr ""
 
 #. Type: string
 #. Description
-#: ../templates:1001
+#: ../templates:2001
 msgid "Aiccu username:"
 msgstr "Usuario de aiccu:"
 
 #. Type: string
 #. Description
-#: ../templates:1001
+#: ../templates:2001
 msgid ""
 "To successfully connect, you must provide your SixXS username. This is the "
 "same username you use to login to the sixxs.net web site."
@@ -33,13 +33,13 @@ msgstr ""
 
 #. Type: password
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 msgid "Aiccu password:"
 msgstr "Contrasinal de aiccu:"
 
 #. Type: password
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 msgid ""
 "To successfully connect, you must provide your SixXS password. This is the "
 "same password you use to login to the sixxs.net web site."
@@ -50,25 +50,25 @@ msgstr ""
 
 #. Type: select
 #. Description
-#: ../templates:3001
+#: ../templates:4001
 msgid "Tunnel broker:"
 msgstr "Negociador de túneles:"
 
 #. Type: select
 #. Description
-#: ../templates:3001
+#: ../templates:4001
 msgid "Please select the tunnel broker you would like to use."
 msgstr "Escolla o negociador de túneles que quere empregar."
 
 #. Type: select
 #. Description
-#: ../templates:4001
+#: ../templates:5001
 msgid "Tunnel name:"
 msgstr "Nome do túnel:"
 
 #. Type: select
 #. Description
-#: ../templates:4001
+#: ../templates:5001
 msgid ""
 "If more than one tunnel is configured for your account, please specify which "
 "one should be automatically activated."
@@ -78,13 +78,13 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:5001
+#: ../templates:6001
 msgid "Re-check authentication details?"
 msgstr "¿Volver comprobar os detalles de autenticación?"
 
 #. Type: boolean
 #. Description
-#: ../templates:5001
+#: ../templates:6001
 msgid ""
 "The authentication details you specified appear to be incorrect. You should "
 "try to log in on the tunnel broker website and contact the site "
@@ -96,13 +96,13 @@ msgstr ""
 
 #. Type: error
 #. Description
-#: ../templates:6001
+#: ../templates:7001
 msgid "No tunnel brokers available"
 msgstr "Non hai negociadores de túneles dispoñibles"
 
 #. Type: error
 #. Description
-#: ../templates:6001
+#: ../templates:7001
 msgid ""
 "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
 "This most likely indicates a DNS configuration problem."
@@ -113,13 +113,13 @@ msgstr ""
 
 #. Type: error
 #. Description
-#: ../templates:7001
+#: ../templates:8001
 msgid "No tunnels available"
 msgstr "Non hai túneles dispoñibles"
 
 #. Type: error
 #. Description
-#: ../templates:7001
+#: ../templates:8001
 msgid ""
 "No tunnels are currently available to you. Please connect to the SixXS "
 "website at http://www.sixxs.net/ to request a tunnel for your account."

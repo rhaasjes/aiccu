@@ -2,13 +2,13 @@
 # Copyright (C) 2007 THE aiccu'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the aiccu package.
 # പ്രവീണ്‍|Praveen എ|A <pravi.a@gmail.com>, 2007.
-# 
-# 
+#
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: aiccu 20070331\n"
-"Report-Msgid-Bugs-To: pkern@debian.org\n"
-"POT-Creation-Date: 2007-03-24 10:30+0100\n"
+"Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
+"POT-Creation-Date: 2009-12-28 15:48+0100\n"
 "PO-Revision-Date: 2007-03-31 05:57+0530\n"
 "Last-Translator: Praveen|പ്രവീണ്‍ A|എ <pravi.a@gmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ്  <smc-"
@@ -19,13 +19,13 @@ msgstr ""
 
 #. Type: string
 #. Description
-#: ../templates:1001
+#: ../templates:2001
 msgid "Aiccu username:"
 msgstr "Aiccu ഉപയോക്തൃനാമം:"
 
 #. Type: string
 #. Description
-#: ../templates:1001
+#: ../templates:2001
 msgid ""
 "To successfully connect, you must provide your SixXS username. This is the "
 "same username you use to login to the sixxs.net web site."
@@ -35,13 +35,13 @@ msgstr ""
 
 #. Type: password
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 msgid "Aiccu password:"
 msgstr "Aiccu അടയാളവാക്ക്:"
 
 #. Type: password
 #. Description
-#: ../templates:2001
+#: ../templates:3001
 msgid ""
 "To successfully connect, you must provide your SixXS password. This is the "
 "same password you use to login to the sixxs.net web site."
@@ -51,25 +51,25 @@ msgstr ""
 
 #. Type: select
 #. Description
-#: ../templates:3001
+#: ../templates:4001
 msgid "Tunnel broker:"
 msgstr "ടണല്‍ ബ്രോക്കര്‍:"
 
 #. Type: select
 #. Description
-#: ../templates:3001
+#: ../templates:4001
 msgid "Please select the tunnel broker you would like to use."
 msgstr "ദയവായി നിങ്ങളുപയോഗിയ്ക്കാനാഗ്രഹിയ്ക്കുന്ന ടണല്‍ ബ്രോക്കര്‍ തിരഞ്ഞെടുക്കുക."
 
 #. Type: select
 #. Description
-#: ../templates:4001
+#: ../templates:5001
 msgid "Tunnel name:"
 msgstr "ടണല്‍ നാമം:"
 
 #. Type: select
 #. Description
-#: ../templates:4001
+#: ../templates:5001
 msgid ""
 "If more than one tunnel is configured for your account, please specify which "
 "one should be automatically activated."
@@ -79,13 +79,13 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../templates:5001
+#: ../templates:6001
 msgid "Re-check authentication details?"
 msgstr "തിരിച്ചറിയല്‍ വിവരങ്ങള്‍ പുനഃപരിശോദിയ്ക്കണോ?"
 
 #. Type: boolean
 #. Description
-#: ../templates:5001
+#: ../templates:6001
 msgid ""
 "The authentication details you specified appear to be incorrect. You should "
 "try to log in on the tunnel broker website and contact the site "
@@ -96,13 +96,13 @@ msgstr ""
 
 #. Type: error
 #. Description
-#: ../templates:6001
+#: ../templates:7001
 msgid "No tunnel brokers available"
 msgstr "ടണല്‍ ബ്രോക്കറുകളൊന്നും ലഭ്യമല്ല"
 
 #. Type: error
 #. Description
-#: ../templates:6001
+#: ../templates:7001
 msgid ""
 "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
 "This most likely indicates a DNS configuration problem."
@@ -112,13 +112,13 @@ msgstr ""
 
 #. Type: error
 #. Description
-#: ../templates:7001
+#: ../templates:8001
 msgid "No tunnels available"
 msgstr "ടണലുകളൊന്നും ലഭ്യമല്ല"
 
 #. Type: error
 #. Description
-#: ../templates:7001
+#: ../templates:8001
 msgid ""
 "No tunnels are currently available to you. Please connect to the SixXS "
 "website at http://www.sixxs.net/ to request a tunnel for your account."

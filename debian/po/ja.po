@@ -1,16 +1,15 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Copyright (C) 2009 Debian QA Group <packages@qa.debian.org>
+# This file is distributed under the same license as the aiccu package.
+# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009.
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: aiccu\n"
+"Project-Id-Version: aiccu 20070115-10\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
 "POT-Creation-Date: 2009-12-28 15:48+0100\n"
-"PO-Revision-Date: 2007-03-31 17:28+0200\n"
-"Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
-"Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
+"PO-Revision-Date: 2009-11-07 14:26+0900\n"
+"Last-Translator: Hideki Yamane (Debian-JP) <henrich@debian.or.jp>\n"
+"Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +18,7 @@ msgstr ""
 #. Description
 #: ../templates:2001
 msgid "Aiccu username:"
-msgstr "Uživatelské jméno aiccu:"
+msgstr "aiccu のユーザ名:"
 
 #. Type: string
 #. Description
@@ -28,14 +27,14 @@ msgid ""
 "To successfully connect, you must provide your SixXS username. This is the "
 "same username you use to login to the sixxs.net web site."
 msgstr ""
-"Pro připojení musíte zadat naše SixXS uživatelské jméno. Jedná se o stejné "
-"uživatelské jméno, kterým se přihlašujete k webovým stránkám sixxs.net."
+"接続できるようにするには、SixXS ユーザ名を入力する必要があります。これは、"
+"sixxs.net のウェブサイトにログインするのに使うユーザ名と同じです。"
 
 #. Type: password
 #. Description
 #: ../templates:3001
 msgid "Aiccu password:"
-msgstr "Heslo aiccu:"
+msgstr "aiccu のパスワード:"
 
 #. Type: password
 #. Description
@@ -44,26 +43,26 @@ msgid ""
 "To successfully connect, you must provide your SixXS password. This is the "
 "same password you use to login to the sixxs.net web site."
 msgstr ""
-"Pro připojení musíte zadat naše SixXS heslo. Jedná se o stejné heslo, které "
-"používáte pro přihlášení k webovým stránkám sixxs.net."
+"接続できるようにするには、SixXS パスワードを入力する必要があります。これは、"
+"sixxs.net のウェブサイトにログインするのに使うパスワードと同じです。"
 
 #. Type: select
 #. Description
 #: ../templates:4001
 msgid "Tunnel broker:"
-msgstr "Zprostředkovatel tunelu:"
+msgstr "トンネルブローカー:"
 
 #. Type: select
 #. Description
 #: ../templates:4001
 msgid "Please select the tunnel broker you would like to use."
-msgstr "Vyberte prosím zprostředkovatele tunelu, kterého chcete použít."
+msgstr "利用したいトンネルブローカーを選んでください。"
 
 #. Type: select
 #. Description
 #: ../templates:5001
 msgid "Tunnel name:"
-msgstr "Jméno tunelu:"
+msgstr "トンネル名:"
 
 #. Type: select
 #. Description
@@ -72,14 +71,14 @@ msgid ""
 "If more than one tunnel is configured for your account, please specify which "
 "one should be automatically activated."
 msgstr ""
-"Pokud máte na svém účtě nastaven více než jeden tunel, zadejte prosím ten, "
-"který se má aktivovat automaticky."
+"アカウントに対して 2 つ以上のトンネルが設定されている場合は、どれを自動的に有"
+"効にするかを指定してください。"
 
 #. Type: boolean
 #. Description
 #: ../templates:6001
 msgid "Re-check authentication details?"
-msgstr "Překontrolovat autentizační podrobnosti?"
+msgstr "認証の詳細を再確認しますか?"
 
 #. Type: boolean
 #. Description
@@ -89,14 +88,14 @@ msgid ""
 "try to log in on the tunnel broker website and contact the site "
 "administrators."
 msgstr ""
-"Zdá se, že zadané autentizační údaje nejsou správné. Měli byste se přihlásit "
-"na webové stránky zprostředkovatele tunelu a kontaktovat správce."
+"指定された認証の詳細が正しくありません。トンネルブローカーのウェブサイトにロ"
+"グインしてサイト管理者に確認を試みてください。"
 
 #. Type: error
 #. Description
 #: ../templates:7001
 msgid "No tunnel brokers available"
-msgstr "Žádní zprostředkovatelé tunelů nejsou dostupní"
+msgstr "利用できるトンネルブローカーがありません"
 
 #. Type: error
 #. Description
@@ -105,14 +104,14 @@ msgid ""
 "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
 "This most likely indicates a DNS configuration problem."
 msgstr ""
-"Z DNE (_aiccu + _aiccu.sixxs.net) se nepodařilo získat žádné \n"
-"zprostředkovatele tunelů. To většinou ukazuje na chybné nastavení DNS."
+"DNS からトンネルブローカーを取得できません (_aiccu + _aiccu.sixxs.net)。これ"
+"は、おそらく DNS 設定での問題だということを示しています。"
 
 #. Type: error
 #. Description
 #: ../templates:8001
 msgid "No tunnels available"
-msgstr "Žádné tunely nejsou dostupné"
+msgstr "利用できるトンネルがありません"
 
 #. Type: error
 #. Description
@@ -121,5 +120,5 @@ msgid ""
 "No tunnels are currently available to you. Please connect to the SixXS "
 "website at http://www.sixxs.net/ to request a tunnel for your account."
 msgstr ""
-"V současnosti nemáte dostupné žádné tunely. Připojte se prosím na stránky "
-"SixXS na adrese http://www.sixxs.net a vyžádejte si pro svůj účet tunel."
+"利用できるトンネルがありません。あなたのアカウント用のトンネルを申請するた"
+"め、SixXS のウェブサイト http://www.sixxs.net/ へアクセスしてください。"
