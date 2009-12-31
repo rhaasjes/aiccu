@@ -6,6 +6,8 @@ aiccu (20070115-11) unstable; urgency=low
     and use in postinst (Closes: #559683) - Thanks to Patrick Schoenfeld
   * Fix "leaves password in debconf database" add db_reset to postinst
     (Closes: #512674)
+  * Fix "tunnel does not survive suspend" Add restart script to 
+    /etc/pm/sleep.d (Closes: #531003)
   * Added Japanese translation (Closes: #562803) - Thanks to Hideki Yamane
   * Minimize rules file - Thanks to Patrick Schoenfeld
   * Added VCS-Headers
@@ -18,7 +20,7 @@ aiccu (20070115-11) unstable; urgency=low
   * Added upstream changelog
   * Add dependency on ucf
 
- -- Reinier Haasjes <reinier@haasjes.com>  Mon, 28 Dec 2009 15:56:08 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Thu, 31 Dec 2009 09:08:03 +0100
 
 aiccu (20070115-10) unstable; urgency=low
 
