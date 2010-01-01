@@ -72,6 +72,11 @@ case "$1" in
         sed -i -e "/^#tunnel_id /c tunnel_id $TUNNEL" $TMPCONF
     fi
 
+    # Remove config if equal to template
+    if diff -q $TEMPLATE $CONFIGFILE; then
+        rm -f $CONFIGFILE
+    fi
+
     # Put config file into place
     if [ -f $CONFIGFILE ]; then
         ucf --debconf-ok $TMPCONF $CONFIGFILE
