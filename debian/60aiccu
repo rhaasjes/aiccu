@@ -5,33 +5,25 @@ CONFIG=/etc/aiccu.conf
 BINARY=/usr/sbin/aiccu
 P6=/bin/ping6
 
-#. "${PM_FUNCTIONS}"
+. "${PM_FUNCTIONS}"
 
 [ -x $BINARY ] || exit $NA
 [ -f $CONFIG ] || exit $NA
-
-function ping_root() {
-	[ -x $P6 ] || return 127
-
-	# Get aiccu ipv6_interface
-	INT=$(grep ^ipv6_interface $CONFIG | cut -d" " -f 2)
-
-	# Ping f.root-servers.net (Internet Systems Consortium; distributed using anycast)
-	$P6 -I $INT -c 1 f.root-servers.net >/dev/null 2>&1
-	return $?
-}
-
-function check_aiccu() {
-	# Restart aiccu if ping fails
-	ping_root || invoke-rc.d aiccu restart
-}
 
 case "$1" in
 	hibernate|suspend)
 		# Do nothing
 		;;
 	thaw|resume) 
-		check_aiccu
+		# Restart aiccu if ping6 does not exist
+		[ -x $P6 ] || invoke-rc.d aiccu restart
+	
+		# Get aiccu ipv6_interface
+		INT=$(grep ^ipv6_interface $CONFIG | cut -d" " -f 2)
+	
+		# Ping f.root-servers.net (Internet Systems Consortium; distributed using anycast)
+		# Restart aiccu if ping failed
+		$P6 -I $INT -c 1 f.root-servers.net >/dev/null 2>&1 || invoke-rc.d aiccu restart
 		;;
 	*) exit $NA
 		;;
