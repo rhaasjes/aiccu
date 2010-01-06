@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,47 +68,4 @@ msgstr ""
 msgid ""
 "If more than one tunnel is configured for your account, please specify which "
 "one should be automatically activated."
-msgstr ""
-
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr ""
-
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr ""
-
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr ""
-
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
 msgstr ""

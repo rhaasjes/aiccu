@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aiccu 20070115-10\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: 2009-11-07 14:26+0900\n"
 "Last-Translator: Hideki Yamane (Debian-JP) <henrich@debian.or.jp>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
@@ -74,51 +74,33 @@ msgstr ""
 "アカウントに対して 2 つ以上のトンネルが設定されている場合は、どれを自動的に有"
 "効にするかを指定してください。"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr "認証の詳細を再確認しますか?"
+#~ msgid "Re-check authentication details?"
+#~ msgstr "認証の詳細を再確認しますか?"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-"指定された認証の詳細が正しくありません。トンネルブローカーのウェブサイトにロ"
-"グインしてサイト管理者に確認を試みてください。"
+#~ msgid ""
+#~ "The authentication details you specified appear to be incorrect. You "
+#~ "should try to log in on the tunnel broker website and contact the site "
+#~ "administrators."
+#~ msgstr ""
+#~ "指定された認証の詳細が正しくありません。トンネルブローカーのウェブサイトに"
+#~ "ログインしてサイト管理者に確認を試みてください。"
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr "利用できるトンネルブローカーがありません"
+#~ msgid "No tunnel brokers available"
+#~ msgstr "利用できるトンネルブローカーがありません"
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-"DNS からトンネルブローカーを取得できません (_aiccu + _aiccu.sixxs.net)。これ"
-"は、おそらく DNS 設定での問題だということを示しています。"
+#~ msgid ""
+#~ "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs."
+#~ "net). This most likely indicates a DNS configuration problem."
+#~ msgstr ""
+#~ "DNS からトンネルブローカーを取得できません (_aiccu + _aiccu.sixxs.net)。こ"
+#~ "れは、おそらく DNS 設定での問題だということを示しています。"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr "利用できるトンネルがありません"
+#~ msgid "No tunnels available"
+#~ msgstr "利用できるトンネルがありません"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr ""
-"利用できるトンネルがありません。あなたのアカウント用のトンネルを申請するた"
-"め、SixXS のウェブサイト http://www.sixxs.net/ へアクセスしてください。"
+#~ msgid ""
+#~ "No tunnels are currently available to you. Please connect to the SixXS "
+#~ "website at http://www.sixxs.net/ to request a tunnel for your account."
+#~ msgstr ""
+#~ "利用できるトンネルがありません。あなたのアカウント用のトンネルを申請するた"
+#~ "め、SixXS のウェブサイト http://www.sixxs.net/ へアクセスしてください。"

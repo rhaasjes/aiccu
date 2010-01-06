@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aiccu\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: 2007-03-24 18:34+0100\n"
 "Last-Translator: Jacobo Tarrio <jtarrio@debian.org>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
@@ -76,53 +76,35 @@ msgstr ""
 "Se hai máis dun túnel configurado para a súa conta, indique cal quere "
 "activar automaticamente."
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr "¿Volver comprobar os detalles de autenticación?"
+#~ msgid "Re-check authentication details?"
+#~ msgstr "¿Volver comprobar os detalles de autenticación?"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-"Os detalles de autenticación que especificou semellan ser incorrectos. "
-"Debería probar a se conectar á páxina web do negociador de túneles e poñerse "
-"en contacto cos administradores do sitio."
+#~ msgid ""
+#~ "The authentication details you specified appear to be incorrect. You "
+#~ "should try to log in on the tunnel broker website and contact the site "
+#~ "administrators."
+#~ msgstr ""
+#~ "Os detalles de autenticación que especificou semellan ser incorrectos. "
+#~ "Debería probar a se conectar á páxina web do negociador de túneles e "
+#~ "poñerse en contacto cos administradores do sitio."
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr "Non hai negociadores de túneles dispoñibles"
+#~ msgid "No tunnel brokers available"
+#~ msgstr "Non hai negociadores de túneles dispoñibles"
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-"Non se puido obter ningún negociador de túneles de DNS (_aiccu + _aiccu."
-"sixxs.net). O máis probable é que isto indique un problema coa configuración "
-"do DNS."
+#~ msgid ""
+#~ "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs."
+#~ "net). This most likely indicates a DNS configuration problem."
+#~ msgstr ""
+#~ "Non se puido obter ningún negociador de túneles de DNS (_aiccu + _aiccu."
+#~ "sixxs.net). O máis probable é que isto indique un problema coa "
+#~ "configuración do DNS."
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr "Non hai túneles dispoñibles"
+#~ msgid "No tunnels available"
+#~ msgstr "Non hai túneles dispoñibles"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr ""
-"Non ten ningún túnel dispoñible. Conéctese á páxina web de SixXS, http://www."
-"sixxs.net/ para solicitar un túnel para a súa conta."
+#~ msgid ""
+#~ "No tunnels are currently available to you. Please connect to the SixXS "
+#~ "website at http://www.sixxs.net/ to request a tunnel for your account."
+#~ msgstr ""
+#~ "Non ten ningún túnel dispoñible. Conéctese á páxina web de SixXS, http://"
+#~ "www.sixxs.net/ para solicitar un túnel para a súa conta."

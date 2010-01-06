@@ -1,2 +1,3 @@
 doc/aiccu.conf  usr/share/aiccu/conf-templates
-debian/60aiccu  /etc/pm/sleep.d
+debian/brokers.list usr/share/aiccu/conf-templates
+debian/60aiccu  etc/pm/sleep.d

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aiccu\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: 2009-01-04 21:25+0100\n"
 "Last-Translator: Martin Bagge <brother@bsnet.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
@@ -76,51 +76,34 @@ msgstr ""
 "Om det finns mer än en tunnel för ditt konto måste du välja vilken som ska "
 "aktiveras automatiskt."
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr "Kontrollera identitetsinställningarna igen?"
+#~ msgid "Re-check authentication details?"
+#~ msgstr "Kontrollera identitetsinställningarna igen?"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-"Identitetsinställningarna som du angav verkar inte fungera. Du bör logga in "
-"på webbplatsen för tunnelhanteringen och kontakta en administratör."
+#~ msgid ""
+#~ "The authentication details you specified appear to be incorrect. You "
+#~ "should try to log in on the tunnel broker website and contact the site "
+#~ "administrators."
+#~ msgstr ""
+#~ "Identitetsinställningarna som du angav verkar inte fungera. Du bör logga "
+#~ "in på webbplatsen för tunnelhanteringen och kontakta en administratör."
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr "Inga tunnelhanterar tillgängliga."
+#~ msgid "No tunnel brokers available"
+#~ msgstr "Inga tunnelhanterar tillgängliga."
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-"Kunde inte hämta tunnelhanterare från DNS (_aiccu+ aiccu.sixxss.net). Detta "
-"tyder på att DNS-inställningarna är felaktiga."
+#~ msgid ""
+#~ "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs."
+#~ "net). This most likely indicates a DNS configuration problem."
+#~ msgstr ""
+#~ "Kunde inte hämta tunnelhanterare från DNS (_aiccu+ aiccu.sixxss.net). "
+#~ "Detta tyder på att DNS-inställningarna är felaktiga."
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr "Inga tunnlar tillgängliga"
+#~ msgid "No tunnels available"
+#~ msgstr "Inga tunnlar tillgängliga"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr ""
-"Det finns för tillfället inga tunnlar tillgängliga för dig. Anslut till "
-"SixXS webbplats på http://www.sixxs.net och begär en tunnel för ditt konto."
+#~ msgid ""
+#~ "No tunnels are currently available to you. Please connect to the SixXS "
+#~ "website at http://www.sixxs.net/ to request a tunnel for your account."
+#~ msgstr ""
+#~ "Det finns för tillfället inga tunnlar tillgängliga för dig. Anslut till "
+#~ "SixXS webbplats på http://www.sixxs.net och begär en tunnel för ditt "
+#~ "konto."

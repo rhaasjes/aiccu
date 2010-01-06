@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: 2007-03-27 07:06+0200\n"
 "Last-Translator: Christian Perrier <bubulle@debian.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
@@ -80,54 +80,36 @@ msgstr ""
 "Si plus d'un tunnel est configuré pour votre compte, veuillez indiquer celui "
 "qui sera activé automatiquement."
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr "Faut-il contrôler à nouveau les paramètres d'authentification ?"
+#~ msgid "Re-check authentication details?"
+#~ msgstr "Faut-il contrôler à nouveau les paramètres d'authentification ?"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-"Les paramètres de connexion fournis semblent être incorrects. Vous devriez "
-"vous connecter sur le site du fournisseur de connectivité IPv6 et contacter "
-"ses administrateurs."
+#~ msgid ""
+#~ "The authentication details you specified appear to be incorrect. You "
+#~ "should try to log in on the tunnel broker website and contact the site "
+#~ "administrators."
+#~ msgstr ""
+#~ "Les paramètres de connexion fournis semblent être incorrects. Vous "
+#~ "devriez vous connecter sur le site du fournisseur de connectivité IPv6 et "
+#~ "contacter ses administrateurs."
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr "Aucun fournisseur de tunnels disponible"
+#~ msgid "No tunnel brokers available"
+#~ msgstr "Aucun fournisseur de tunnels disponible"
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-"Aucun fournisseur de tunnels n'a pu être retrouvé dans le DNS (_aiccu + "
-"_aiccu.sixxs.net). Cela est probablement dû à un défaut de configuration du "
-"DNS."
+#~ msgid ""
+#~ "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs."
+#~ "net). This most likely indicates a DNS configuration problem."
+#~ msgstr ""
+#~ "Aucun fournisseur de tunnels n'a pu être retrouvé dans le DNS (_aiccu + "
+#~ "_aiccu.sixxs.net). Cela est probablement dû à un défaut de configuration "
+#~ "du DNS."
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr "Aucun tunnel disponible"
+#~ msgid "No tunnels available"
+#~ msgstr "Aucun tunnel disponible"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr ""
-"Aucun tunnel n'a été configuré pour vous. Veuillez vous connecter au site "
-"web de SixXS (http://www.sixxs.net) et y demander la création d'un tunnel "
-"pour votre compte."
+#~ msgid ""
+#~ "No tunnels are currently available to you. Please connect to the SixXS "
+#~ "website at http://www.sixxs.net/ to request a tunnel for your account."
+#~ msgstr ""
+#~ "Aucun tunnel n'a été configuré pour vous. Veuillez vous connecter au site "
+#~ "web de SixXS (http://www.sixxs.net) et y demander la création d'un tunnel "
+#~ "pour votre compte."

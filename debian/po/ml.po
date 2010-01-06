@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aiccu 20070331\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: 2007-03-31 05:57+0530\n"
 "Last-Translator: Praveen|പ്രവീണ്‍ A|എ <pravi.a@gmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ്  <smc-"
@@ -77,51 +77,33 @@ msgstr ""
 "നിങ്ങളുടെ അക്കൌണ്ടിന് ഒന്നില്‍ കൂടുതല്‍ ടണല്‍ ക്രമീകരിച്ചിട്ടുണ്ടെങ്കില്‍, ദയവായി സ്വയമേ "
 "സജീവമാക്കേണ്ട അക്കൌണ്ട് ഏതെന്ന് വ്യക്തമാക്കുക."
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr "തിരിച്ചറിയല്‍ വിവരങ്ങള്‍ പുനഃപരിശോദിയ്ക്കണോ?"
+#~ msgid "Re-check authentication details?"
+#~ msgstr "തിരിച്ചറിയല്‍ വിവരങ്ങള്‍ പുനഃപരിശോദിയ്ക്കണോ?"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-"നിങ്ങള്‍ വ്യക്തമാക്കിയ തിരിച്ചറിയല്‍ വിവരങ്ങള്‍ തെറ്റാണെന്ന് തോന്നുന്നു. നിങ്ങള്‍ ടണല്‍ ബ്രോക്കര്‍ "
-"വെബ്സൈറ്റില്‍ ലോഗിന്‍ ചെയ്യാനും സൈറ്റ് ഭരണാധികാരികളുമായി ബന്ധപ്പെടുവാനും ശ്രമിയ്ക്കുകയും വേണം."
+#~ msgid ""
+#~ "The authentication details you specified appear to be incorrect. You "
+#~ "should try to log in on the tunnel broker website and contact the site "
+#~ "administrators."
+#~ msgstr ""
+#~ "നിങ്ങള്‍ വ്യക്തമാക്കിയ തിരിച്ചറിയല്‍ വിവരങ്ങള്‍ തെറ്റാണെന്ന് തോന്നുന്നു. നിങ്ങള്‍ ടണല്‍ ബ്രോക്കര്‍ "
+#~ "വെബ്സൈറ്റില്‍ ലോഗിന്‍ ചെയ്യാനും സൈറ്റ് ഭരണാധികാരികളുമായി ബന്ധപ്പെടുവാനും ശ്രമിയ്ക്കുകയും വേണം."
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr "ടണല്‍ ബ്രോക്കറുകളൊന്നും ലഭ്യമല്ല"
+#~ msgid "No tunnel brokers available"
+#~ msgstr "ടണല്‍ ബ്രോക്കറുകളൊന്നും ലഭ്യമല്ല"
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-"DNS (_aiccu + _aiccu.sixxs.net) ല്‍ നിന്നും ടണല്‍ ബ്രോക്കറുകളൊന്നും കിട്ടിയില്ല. ഇത് DNS "
-"ക്രമീകരണത്തിലെ പ്രശ്നമാകാനാണ് കൂടുതല്‍ സാധ്യത."
+#~ msgid ""
+#~ "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs."
+#~ "net). This most likely indicates a DNS configuration problem."
+#~ msgstr ""
+#~ "DNS (_aiccu + _aiccu.sixxs.net) ല്‍ നിന്നും ടണല്‍ ബ്രോക്കറുകളൊന്നും കിട്ടിയില്ല. ഇത് "
+#~ "DNS ക്രമീകരണത്തിലെ പ്രശ്നമാകാനാണ് കൂടുതല്‍ സാധ്യത."
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr "ടണലുകളൊന്നും ലഭ്യമല്ല"
+#~ msgid "No tunnels available"
+#~ msgstr "ടണലുകളൊന്നും ലഭ്യമല്ല"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr ""
-"ഇപ്പോള്‍ നിങ്ങള്‍ക്കൊരു ടണലുകളും ലഭ്യമല്ല. ദയവായി നിങ്ങളുടെ അക്കൌണ്ടിനൊരു ടണലിനപേക്ഷിയ്ക്കാന്‍ "
-"http://www.sixxs.net/ ലെ SixXS വെബ്സൈറ്റിലേയ്ക്ക് കണക്റ്റ് ചെയ്യുക."
+#~ msgid ""
+#~ "No tunnels are currently available to you. Please connect to the SixXS "
+#~ "website at http://www.sixxs.net/ to request a tunnel for your account."
+#~ msgstr ""
+#~ "ഇപ്പോള്‍ നിങ്ങള്‍ക്കൊരു ടണലുകളും ലഭ്യമല്ല. ദയവായി നിങ്ങളുടെ അക്കൌണ്ടിനൊരു ടണലിനപേക്ഷിയ്ക്കാന്‍ "
+#~ "http://www.sixxs.net/ ലെ SixXS വെബ്സൈറ്റിലേയ്ക്ക് കണക്റ്റ് ചെയ്യുക."

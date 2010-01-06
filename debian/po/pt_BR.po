@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: (pt_BR 20070326)\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: 2007-03-27 00:53-0300\n"
 "Last-Translator: Felipe Augusto van de Wiel (faw) <faw@debian.org>\n"
 "Language-Team: l10n pt_BR <debian-l10n-portuguese@lists.debian.org>\n"
@@ -77,53 +77,35 @@ msgstr ""
 "Se mais de um túnel é configurado para sua conta, por favor especifique qual "
 "deles deveria ser automaticamente ativado."
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr "Reverificar os detalhes de autenticação?"
+#~ msgid "Re-check authentication details?"
+#~ msgstr "Reverificar os detalhes de autenticação?"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-"Os detalhes de autenticação que você especificou parecem estar incorretos. "
-"Você deveria tentar conectar-se no site web do túnel de transporte e "
-"contatar os administradores do site."
+#~ msgid ""
+#~ "The authentication details you specified appear to be incorrect. You "
+#~ "should try to log in on the tunnel broker website and contact the site "
+#~ "administrators."
+#~ msgstr ""
+#~ "Os detalhes de autenticação que você especificou parecem estar "
+#~ "incorretos. Você deveria tentar conectar-se no site web do túnel de "
+#~ "transporte e contatar os administradores do site."
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr "Nenhum túnel de transporte disponível"
+#~ msgid "No tunnel brokers available"
+#~ msgstr "Nenhum túnel de transporte disponível"
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-"Nenhum túnel de transporte pode ser obtido do DNS (_aiccu + _aiccu.sixxs."
-"net). Isto provavelmente indica um problema de configuração DNS."
+#~ msgid ""
+#~ "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs."
+#~ "net). This most likely indicates a DNS configuration problem."
+#~ msgstr ""
+#~ "Nenhum túnel de transporte pode ser obtido do DNS (_aiccu + _aiccu.sixxs."
+#~ "net). Isto provavelmente indica um problema de configuração DNS."
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr "Nenhum túnel disponível"
+#~ msgid "No tunnels available"
+#~ msgstr "Nenhum túnel disponível"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr ""
-"Nenhum túnel está atualmente disponível para você. Por favor, conecte-se ao "
-"site web SixXS em http://www.sixxs.net/ para requisitar um túnel para sua "
-"conta."
+#~ msgid ""
+#~ "No tunnels are currently available to you. Please connect to the SixXS "
+#~ "website at http://www.sixxs.net/ to request a tunnel for your account."
+#~ msgstr ""
+#~ "Nenhum túnel está atualmente disponível para você. Por favor, conecte-se "
+#~ "ao site web SixXS em http://www.sixxs.net/ para requisitar um túnel para "
+#~ "sua conta."

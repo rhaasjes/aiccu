@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aiccu\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: 2007-03-31 17:28+0200\n"
 "Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
@@ -75,51 +75,34 @@ msgstr ""
 "Pokud máte na svém účtě nastaven více než jeden tunel, zadejte prosím ten, "
 "který se má aktivovat automaticky."
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr "Překontrolovat autentizační podrobnosti?"
+#~ msgid "Re-check authentication details?"
+#~ msgstr "Překontrolovat autentizační podrobnosti?"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-"Zdá se, že zadané autentizační údaje nejsou správné. Měli byste se přihlásit "
-"na webové stránky zprostředkovatele tunelu a kontaktovat správce."
+#~ msgid ""
+#~ "The authentication details you specified appear to be incorrect. You "
+#~ "should try to log in on the tunnel broker website and contact the site "
+#~ "administrators."
+#~ msgstr ""
+#~ "Zdá se, že zadané autentizační údaje nejsou správné. Měli byste se "
+#~ "přihlásit na webové stránky zprostředkovatele tunelu a kontaktovat "
+#~ "správce."
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr "Žádní zprostředkovatelé tunelů nejsou dostupní"
+#~ msgid "No tunnel brokers available"
+#~ msgstr "Žádní zprostředkovatelé tunelů nejsou dostupní"
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-"Z DNE (_aiccu + _aiccu.sixxs.net) se nepodařilo získat žádné \n"
-"zprostředkovatele tunelů. To většinou ukazuje na chybné nastavení DNS."
+#~ msgid ""
+#~ "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs."
+#~ "net). This most likely indicates a DNS configuration problem."
+#~ msgstr ""
+#~ "Z DNE (_aiccu + _aiccu.sixxs.net) se nepodařilo získat žádné \n"
+#~ "zprostředkovatele tunelů. To většinou ukazuje na chybné nastavení DNS."
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr "Žádné tunely nejsou dostupné"
+#~ msgid "No tunnels available"
+#~ msgstr "Žádné tunely nejsou dostupné"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr ""
-"V současnosti nemáte dostupné žádné tunely. Připojte se prosím na stránky "
-"SixXS na adrese http://www.sixxs.net a vyžádejte si pro svůj účet tunel."
+#~ msgid ""
+#~ "No tunnels are currently available to you. Please connect to the SixXS "
+#~ "website at http://www.sixxs.net/ to request a tunnel for your account."
+#~ msgstr ""
+#~ "V současnosti nemáte dostupné žádné tunely. Připojte se prosím na stránky "
+#~ "SixXS na adrese http://www.sixxs.net a vyžádejte si pro svůj účet tunel."

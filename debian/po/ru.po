@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aiccu 20070115-9\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: 2009-08-26 19:24+0400\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
@@ -78,51 +78,33 @@ msgstr ""
 "Если для учётной записи настроено более одного туннеля, то укажите какой из "
 "них должен активироваться автоматически."
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr "Перепроверить данные аутентификации?"
+#~ msgid "Re-check authentication details?"
+#~ msgstr "Перепроверить данные аутентификации?"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-"Указанные вами данные аутентификации, кажется, неверны. Попробуйте войти на "
-"веб-сайт туннель-брокера и связаться с администратором."
+#~ msgid ""
+#~ "The authentication details you specified appear to be incorrect. You "
+#~ "should try to log in on the tunnel broker website and contact the site "
+#~ "administrators."
+#~ msgstr ""
+#~ "Указанные вами данные аутентификации, кажется, неверны. Попробуйте войти "
+#~ "на веб-сайт туннель-брокера и связаться с администратором."
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr "Нет доступных туннель-брокеров"
+#~ msgid "No tunnel brokers available"
+#~ msgstr "Нет доступных туннель-брокеров"
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-"Невозможно получить туннель-брокеры из DNS (_aiccu + _aiccu.sixxs.net). "
-"Обычно это указывает на проблему в настройках DNS."
+#~ msgid ""
+#~ "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs."
+#~ "net). This most likely indicates a DNS configuration problem."
+#~ msgstr ""
+#~ "Невозможно получить туннель-брокеры из DNS (_aiccu + _aiccu.sixxs.net). "
+#~ "Обычно это указывает на проблему в настройках DNS."
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr "Нет доступных туннелей"
+#~ msgid "No tunnels available"
+#~ msgstr "Нет доступных туннелей"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr ""
-"К вам нет, в данный момент, доступных туннелей. Войдите на веб-сайт SixXS "
-"http://www.sixxs.net/ и запросите туннель для вашей учётной записи."
+#~ msgid ""
+#~ "No tunnels are currently available to you. Please connect to the SixXS "
+#~ "website at http://www.sixxs.net/ to request a tunnel for your account."
+#~ msgstr ""
+#~ "К вам нет, в данный момент, доступных туннелей. Войдите на веб-сайт SixXS "
+#~ "http://www.sixxs.net/ и запросите туннель для вашей учётной записи."

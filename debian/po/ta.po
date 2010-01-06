@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aiccu\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: 2007-04-05 22:06+0530\n"
 "Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
 "Language-Team: TAMIL <ubuntu-l10n-tam@lists.ubuntu.com>\n"
@@ -76,51 +76,34 @@ msgstr ""
 "உங்கள் கணக்கில் ஒன்றுக்கு மேற்பட்ட டன்னல் வடிவமைத்து இருந்தால் எதை பயன் படுத்த வேண்டும் என "
 "தேர்ந்தெடுங்கள்."
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr "உண்மைப்படுத்தல் விவரங்களை மீண்டும் சரி பார்க்கவா?"
+#~ msgid "Re-check authentication details?"
+#~ msgstr "உண்மைப்படுத்தல் விவரங்களை மீண்டும் சரி பார்க்கவா?"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-"நீங்கள் குறிப்பிட்ட உண்மைப்படுத்தல் விவரங்கள் சரியல்ல. நீங்கள் டன்னல் ப்ரோக்கர் இணைய தளத்துக்குச் "
-"சென்று உள் நுழைய முயன்று அங்கு நிர்வாகிகளை தொடர்பு கொள்ள முயற்சிக்கலாம்."
+#~ msgid ""
+#~ "The authentication details you specified appear to be incorrect. You "
+#~ "should try to log in on the tunnel broker website and contact the site "
+#~ "administrators."
+#~ msgstr ""
+#~ "நீங்கள் குறிப்பிட்ட உண்மைப்படுத்தல் விவரங்கள் சரியல்ல. நீங்கள் டன்னல் ப்ரோக்கர் இணைய "
+#~ "தளத்துக்குச் சென்று உள் நுழைய முயன்று அங்கு நிர்வாகிகளை தொடர்பு கொள்ள முயற்சிக்கலாம்."
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr "டன்னல் ப்ரோக்கர்கள் ஏதும் இருப்பிலில்லை"
+#~ msgid "No tunnel brokers available"
+#~ msgstr "டன்னல் ப்ரோக்கர்கள் ஏதும் இருப்பிலில்லை"
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-"டன்னல் ப்ரோக்கர்கள் ஏதும் ஏஐசிசியு டிஎன்எஸ் (_aiccu + _aiccu.sixxs.net) இலிருந்து "
-"மீட்டெடுக்க முடியவில்லை. இது அனேகமாக டிஎன்எஸ் வடிவமைப்பு பிரச்சினையை குறிக்கிறது."
+#~ msgid ""
+#~ "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs."
+#~ "net). This most likely indicates a DNS configuration problem."
+#~ msgstr ""
+#~ "டன்னல் ப்ரோக்கர்கள் ஏதும் ஏஐசிசியு டிஎன்எஸ் (_aiccu + _aiccu.sixxs.net) இலிருந்து "
+#~ "மீட்டெடுக்க முடியவில்லை. இது அனேகமாக டிஎன்எஸ் வடிவமைப்பு பிரச்சினையை குறிக்கிறது."
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr "டன்னல்கள் ஏதும் இருப்பிலில்லை"
+#~ msgid "No tunnels available"
+#~ msgstr "டன்னல்கள் ஏதும் இருப்பிலில்லை"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr ""
-"டன்னல்கள் ஏதும் உங்களுக்கு கிடைக்கவில்லை. தயை செய்து சிக்ஸ்எக்ஸ்எஸ் (SixXS ) இணயதளத்துக்கு "
-"(http://www.sixxs.net/) தொடர்பு கொண்டு உங்கள் கணக்குக்கு ஒரு டன்னல் ஐ கேளுங்கள்."
+#~ msgid ""
+#~ "No tunnels are currently available to you. Please connect to the SixXS "
+#~ "website at http://www.sixxs.net/ to request a tunnel for your account."
+#~ msgstr ""
+#~ "டன்னல்கள் ஏதும் உங்களுக்கு கிடைக்கவில்லை. தயை செய்து சிக்ஸ்எக்ஸ்எஸ் (SixXS ) "
+#~ "இணயதளத்துக்கு (http://www.sixxs.net/) தொடர்பு கொண்டு உங்கள் கணக்குக்கு ஒரு டன்னல் ஐ "
+#~ "கேளுங்கள்."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aiccu\n"
 "Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
-"POT-Creation-Date: 2009-12-28 15:48+0100\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
 "PO-Revision-Date: 2007-03-24 17:08+0100\n"
 "Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -77,54 +77,36 @@ msgstr ""
 "Falls mehr als ein Tunnel für Ihr Konto konfiguriert ist, geben Sie bitte "
 "an, welcher automatisch aktiviert werden soll."
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid "Re-check authentication details?"
-msgstr "Authentifizierung-Details erneut prüfen?"
+#~ msgid "Re-check authentication details?"
+#~ msgstr "Authentifizierung-Details erneut prüfen?"
 
-#. Type: boolean
-#. Description
-#: ../templates:6001
-msgid ""
-"The authentication details you specified appear to be incorrect. You should "
-"try to log in on the tunnel broker website and contact the site "
-"administrators."
-msgstr ""
-"Die von Ihnen angegebenen Authentifizierung-Details scheinen nicht zu "
-"stimmen.Sie sollten versuchen, sich auf der Tunnel-Broker-Website anzumelden "
-"und den Administrator der Site zu benachrichtigen."
+#~ msgid ""
+#~ "The authentication details you specified appear to be incorrect. You "
+#~ "should try to log in on the tunnel broker website and contact the site "
+#~ "administrators."
+#~ msgstr ""
+#~ "Die von Ihnen angegebenen Authentifizierung-Details scheinen nicht zu "
+#~ "stimmen.Sie sollten versuchen, sich auf der Tunnel-Broker-Website "
+#~ "anzumelden und den Administrator der Site zu benachrichtigen."
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid "No tunnel brokers available"
-msgstr "Keine Tunnel-Makler (Broker) verfügbar"
+#~ msgid "No tunnel brokers available"
+#~ msgstr "Keine Tunnel-Makler (Broker) verfügbar"
 
-#. Type: error
-#. Description
-#: ../templates:7001
-msgid ""
-"No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net). "
-"This most likely indicates a DNS configuration problem."
-msgstr ""
-"Aus dem DNS konnten keine Tunnel-Makler abgerufen werden ((_aiccu + _aiccu."
-"sixxs.net). Höchstwahrscheinlich liegt das an einem DNS-"
-"Konfigurationsproblem."
+#~ msgid ""
+#~ "No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs."
+#~ "net). This most likely indicates a DNS configuration problem."
+#~ msgstr ""
+#~ "Aus dem DNS konnten keine Tunnel-Makler abgerufen werden ((_aiccu + "
+#~ "_aiccu.sixxs.net). Höchstwahrscheinlich liegt das an einem DNS-"
+#~ "Konfigurationsproblem."
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid "No tunnels available"
-msgstr "Keine Tunnel verfügbar"
+#~ msgid "No tunnels available"
+#~ msgstr "Keine Tunnel verfügbar"
 
-#. Type: error
-#. Description
-#: ../templates:8001
-msgid ""
-"No tunnels are currently available to you. Please connect to the SixXS "
-"website at http://www.sixxs.net/ to request a tunnel for your account."
-msgstr ""
-"Für Sie sind derzeit keine Tunnel verfügbar. Bitte verbinden Sie sich mit "
-"der SixXS-Webseite unter http://www.sixxs.net/, um einen Tunnel für Ihr "
-"Konto zu beantragen."
+#~ msgid ""
+#~ "No tunnels are currently available to you. Please connect to the SixXS "
+#~ "website at http://www.sixxs.net/ to request a tunnel for your account."
+#~ msgstr ""
+#~ "Für Sie sind derzeit keine Tunnel verfügbar. Bitte verbinden Sie sich mit "
+#~ "der SixXS-Webseite unter http://www.sixxs.net/, um einen Tunnel für Ihr "
+#~ "Konto zu beantragen."

@@ -9,6 +9,10 @@ aiccu (20070115-11) unstable; urgency=low
   * Fix "tunnel does not survive suspend" Add restart script to 
     /etc/pm/sleep.d (Closes: #531003)
   * Added Japanese translation (Closes: #562803) - Thanks to Hideki Yamane
+  * Fix "uses non-essential tools in the config script" (Closes: #561324)
+    - get brokers list by dns (instead of own binary)
+    - supply static brokerlist if dns is unavailable
+    - get tunnel ID in postinst (using own binary)
   * Minimize rules file - Thanks to Patrick Schoenfeld
   * Added VCS-Headers
   * Fixed spelling-error-in-binary
@@ -20,7 +24,7 @@ aiccu (20070115-11) unstable; urgency=low
   * Added "no-upstream-changelog" to lintian-overrides
   * Add dependency on ucf
 
- -- Reinier Haasjes <reinier@haasjes.com>  Thu, 31 Dec 2009 09:08:03 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Wed, 06 Jan 2010 10:02:24 +0100
 
 aiccu (20070115-10) unstable; urgency=low
 

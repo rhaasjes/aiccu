@@ -25,23 +25,3 @@ Choices: ${tunnels}
 _Description: Tunnel name:
  If more than one tunnel is configured for your account, please specify
  which one should be automatically activated.
-
-Template: aiccu/badauth
-Type: boolean
-_Description: Re-check authentication details?
- The authentication details you specified appear to be incorrect.
- You should try to log in on the tunnel broker website and
- contact the site administrators.
-
-Template: aiccu/nobrokers
-Type: error
-_Description: No tunnel brokers available
- No tunnel brokers could be retrieved from DNS (_aiccu + _aiccu.sixxs.net).
- This most likely indicates a DNS configuration problem.
-
-Template: aiccu/notunnels
-Type: error
-_Description: No tunnels available
- No tunnels are currently available to you. Please connect to the
- SixXS website at http://www.sixxs.net/ to request a tunnel for your
- account.
