@@ -1,6 +1,8 @@
 aiccu (20070115-12) unstable; urgency=low
 
   * Lintian clean (Closes: #566910)
+  * Fix "setupscript not executed" (Closes: #538129) - Thanks to
+    Norman Rasmussen
   * Fix "Should handle empty DNS query responses" Use default brokers
     list if no/empty reply (Closes: #567730)
   * Changed VCS to github.com
@@ -9,8 +11,10 @@ aiccu (20070115-12) unstable; urgency=low
     Norman Rasmussen
   * Allow 'tunnels' mode when there's an already running instance - Thanks 
     to Norman Rasmussen
+  * Fix "setupscript not executed" <explain what you changed and why>
+    (Closes: #538129)
 
- -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 10:15:01 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 10:41:33 +0100
 
 aiccu (20070115-11) unstable; urgency=low
 

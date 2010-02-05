@@ -1,3 +1,4 @@
+08_setup_script.patch
 01_no-shipped-init-script.patch
 02_skip-strip.patch
 03_no-quiet-gcc.patch
