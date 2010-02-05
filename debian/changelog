@@ -1,8 +1,10 @@
 aiccu (20070115-12) unstable; urgency=low
 
+  * Lintian clean (Closes: #566910)
   * Changed VCS to github.com
+  * Upgraded standards-version to 3.8.4
 
- -- Reinier Haasjes <reinier@haasjes.com>  Thu, 14 Jan 2010 11:17:15 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 09:05:13 +0100
 
 aiccu (20070115-11) unstable; urgency=low
 
