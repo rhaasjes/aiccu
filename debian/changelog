@@ -7,8 +7,10 @@ aiccu (20070115-12) unstable; urgency=low
   * Upgraded standards-version to 3.8.4
   * Initialize syslog so that we log with our PID as Daemon - Thanks to
     Norman Rasmussen
+  * Allow 'tunnels' mode when there's an already running instance - Thanks 
+    to Norman Rasmussen
 
- -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 10:06:42 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 10:15:01 +0100
 
 aiccu (20070115-11) unstable; urgency=low
 
