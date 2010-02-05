@@ -1,10 +1,12 @@
 aiccu (20070115-12) unstable; urgency=low
 
   * Lintian clean (Closes: #566910)
+  * Fix "Should handle empty DNS query responses" Use default brokers
+    list if no/empty reply (Closes: #567730)
   * Changed VCS to github.com
   * Upgraded standards-version to 3.8.4
 
- -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 09:05:13 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 09:40:25 +0100
 
 aiccu (20070115-11) unstable; urgency=low
 
