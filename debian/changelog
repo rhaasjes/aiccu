@@ -5,8 +5,10 @@ aiccu (20070115-12) unstable; urgency=low
     list if no/empty reply (Closes: #567730)
   * Changed VCS to github.com
   * Upgraded standards-version to 3.8.4
+  * Initialize syslog so that we log with our PID as Daemon - Thanks to
+    Norman Rasmussen
 
- -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 09:40:25 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 10:06:42 +0100
 
 aiccu (20070115-11) unstable; urgency=low
 
