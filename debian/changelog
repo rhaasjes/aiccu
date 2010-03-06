@@ -11,8 +11,6 @@ aiccu (20070115-12) unstable; urgency=low
     Norman Rasmussen
   * Allow 'tunnels' mode when there's an already running instance - Thanks 
     to Norman Rasmussen
-  * Fix "setupscript not executed" <explain what you changed and why>
-    (Closes: #538129)
 
  -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 10:41:33 +0100
 
