@@ -1,6 +1,11 @@
-# Whether to start aiccu during system startup (true) or not (false).
-BACKGROUND="true"
+# This is a configuration file for /etc/init.d/aiccu; it allows you to
+# perform common modifications to the behavior of the aiccu daemon
+# startup without editing the init script (and thus getting prompted
+# by dpkg on upgrades).  We all love dpkg prompts.
 
-# Specify additional command-line options for aiccu startup.
-OPTIONS=""
+# Arguments to pass to aiccu daemon.
+DAEMON_ARGS=""
+
+# Run aiccu at startup ?
+AICCU_ENABLED=Yes
 

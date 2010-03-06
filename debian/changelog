@@ -5,6 +5,8 @@ aiccu (20070115-12) unstable; urgency=low
     Norman Rasmussen
   * Fix "Should handle empty DNS query responses" Use default brokers
     list if no/empty reply (Closes: #567730)
+  * Fix "No status section in aiccu init script" Rewrote init script
+    (Closes: #564197)
   * Changed VCS to github.com
   * Upgraded standards-version to 3.8.4
   * Initialize syslog so that we log with our PID as Daemon - Thanks to
@@ -12,7 +14,7 @@ aiccu (20070115-12) unstable; urgency=low
   * Allow 'tunnels' mode when there's an already running instance - Thanks 
     to Norman Rasmussen
 
- -- Reinier Haasjes <reinier@haasjes.com>  Fri, 05 Feb 2010 10:41:33 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Sat, 06 Mar 2010 10:08:09 +0100
 
 aiccu (20070115-11) unstable; urgency=low
 
