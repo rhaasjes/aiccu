@@ -27,6 +27,9 @@ clean: unpatch
 	# Fix permissions of 60aiccu file
 	chmod a+x `pwd`/debian/60aiccu
 
+	# Remove empty preinst script
+	[ -f `pwd`/debian/aiccu.preinst ] && rm `pwd`/debian/aiccu.preinst || exit 0
+
 #	dh_clean
 
 binary-arch: build install
