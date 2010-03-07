@@ -21,9 +21,9 @@ clean: unpatch
 #
 #	$(MAKE) clean
 #
-#	# Fix permissions of configuration file
-#	chmod a-x `pwd`/doc/aiccu.conf
-#
+	# Fix permissions of configuration file
+	chmod a-x `pwd`/doc/aiccu.conf
+
 #	dh_clean
 
 binary-arch: build install
