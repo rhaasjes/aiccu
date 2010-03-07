@@ -24,6 +24,9 @@ clean: unpatch
 	# Fix permissions of configuration file
 	chmod a-x `pwd`/doc/aiccu.conf
 
+	# Fix permissions of 60aiccu file
+	chmod a+x `pwd`/debian/60aiccu
+
 #	dh_clean
 
 binary-arch: build install
