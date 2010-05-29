@@ -1,0 +1,92 @@
+# aiccu po-debconf translation to Spanish
+# Copyright (C) 2010 Software in the Public Interest
+# This file is distributed under the same license as the aiccu package.
+#
+# Changes:
+# - Initial translation
+# Camaleón <noelamac@gmail.com>, 2010
+#
+# - Updates
+#
+#
+# Traductores, si no conocen el formato PO, merece la pena leer la
+# documentación de gettext, especialmente las secciones dedicadas a este
+# formato, por ejemplo ejecutando:
+# info -n '(gettext)PO Files'
+# info -n '(gettext)Header Entry'
+#
+# Equipo de traducción al español, por favor lean antes de traducir
+# los siguientes documentos:
+#
+# - El proyecto de traducción de Debian al español
+# http://www.debian.org/intl/spanish/
+# especialmente las notas y normas de traducción en
+# http://www.debian.org/intl/spanish/notas
+#
+# - La guía de traducción de po's de debconf:
+# /usr/share/doc/po-debconf/README-trans
+# o http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: aiccu 20070115-12\n"
+"Report-Msgid-Bugs-To: aiccu@packages.debian.org\n"
+"POT-Creation-Date: 2010-01-06 11:07+0100\n"
+"PO-Revision-Date: 2010-05-17 17:37+0100\n"
+"Last-Translator: Camaleón <noelamac@gmail.com>\n"
+"Language-Team: Debian Spanish <debian-l10n-spanish@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+
+# Cam: en mayúsculas por ser sigla (Automatic IPv6 Connectivity Client Utility)
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Aiccu username:"
+msgstr "Nombre de usuario de AICCU:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "To successfully connect, you must provide your SixXS username. This is the same username you use to login to the sixxs.net web site."
+msgstr "Para poder conectarse debe proporcionar su nombre de usuario de SixXS. Es el mismo nombre de usuario que utiliza para iniciar la sesión en la página web de «sixxs.net»"
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid "Aiccu password:"
+msgstr "Contraseña de AICCU:"
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid "To successfully connect, you must provide your SixXS password. This is the same password you use to login to the sixxs.net web site."
+msgstr "Para poder conectarse necesita proporcionar su contraseña de SixXS. Es la misma contraseña que utiliza para iniciar la sesión en la página web de «sixxs.net»."
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Tunnel broker:"
+msgstr "«Tunnel broker»:"
+
+# Cam: mantengo término original por ser el más utilizado
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Please select the tunnel broker you would like to use."
+msgstr "Por favor, seleccione el «tunnel broker» que le gustaría utilizar."
+
+#. Type: select
+#. Description
+#: ../templates:5001
+msgid "Tunnel name:"
+msgstr "Nombre del túnel:"
+
+#. Type: select
+#. Description
+#: ../templates:5001
+msgid "If more than one tunnel is configured for your account, please specify which one should be automatically activated."
+msgstr "Si ha configurado más de un túnel en su cuenta, especifique cuál debe activarse automáticamente."
+

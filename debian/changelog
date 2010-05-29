@@ -2,8 +2,9 @@ aiccu (20070115-13) unstable; urgency=low
 
   * Fix "Package upgrade fails in postinst" Added db_stop to 
     aiccu.postinst (Closes: #574498) - Thanks to Jean-Louis Dupond
+  * Added Spanish translation (Closes: #583542) - Thanks to Camaleón
 
- -- Reinier Haasjes <reinier@haasjes.com>  Sat, 29 May 2010 09:50:21 +0200
+ -- Reinier Haasjes <reinier@haasjes.com>  Sat, 29 May 2010 11:08:06 +0200
 
 aiccu (20070115-12) unstable; urgency=low
 
