@@ -119,6 +119,9 @@ case "$1" in
     # Remove password from database
     db_reset aiccu/password
 
+    # Close all fd's
+    db_stop
+
     ### END (re)configure ###
     ;;
 
