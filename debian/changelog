@@ -1,3 +1,10 @@
+aiccu (20070115-14) unstable; urgency=low
+
+  * Fix "preconfiguration fails" Add test to check if brokers-file exist.
+    (Closes: #593983)
+
+ -- Reinier Haasjes <reinier@haasjes.com>  Wed, 25 Aug 2010 22:04:14 +0200
+
 aiccu (20070115-13) unstable; urgency=low
 
   * Fix "Package upgrade fails in postinst" Added db_stop to 
@@ -22,10 +29,8 @@ aiccu (20070115-12) unstable; urgency=low
     Norman Rasmussen
   * Allow 'tunnels' mode when there's an already running instance - Thanks 
     to Norman Rasmussen
-  * Fix "Package upgrade fails in postinst" <explain what you changed
-    and why> (Closes: #574498)
 
- -- Reinier Haasjes <reinier@haasjes.com>  Sat, 29 May 2010 09:49:37 +0200
+ -- Reinier Haasjes <reinier@haasjes.com>  Sat, 06 Mar 2010 10:08:09 +0100
 
 aiccu (20070115-11) unstable; urgency=low
 
