@@ -3,7 +3,7 @@ Section: net
 Priority: optional
 Maintainer: Reinier Haasjes <reinier@haasjes.com>
 Build-Depends: debhelper (>= 7), po-debconf, libgnutls-dev, docbook-to-man, quilt
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://www.sixxs.net/tools/aiccu/
 Vcs-Browser: http://github.com/rhaasjes/aiccu
 Vcs-Git: git://github.com/rhaasjes/aiccu.git

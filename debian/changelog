@@ -2,8 +2,9 @@ aiccu (20070115-14) unstable; urgency=low
 
   * Fix "preconfiguration fails" Add test to check if brokers-file exist.
     (Closes: #593983)
+  * Upgraded standards-version to 3.9.1
 
- -- Reinier Haasjes <reinier@haasjes.com>  Wed, 25 Aug 2010 22:04:14 +0200
+ -- Reinier Haasjes <reinier@haasjes.com>  Wed, 25 Aug 2010 22:37:27 +0200
 
 aiccu (20070115-13) unstable; urgency=low
 
