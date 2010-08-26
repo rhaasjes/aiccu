@@ -15,7 +15,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}, debconf, lsb-base, ucf,
  iputils-tracepath [!kfreebsd-i386 !kfreebsd-amd64],
  iproute [!kfreebsd-i386 !kfreebsd-amd64],
  freebsd-net-tools [kfreebsd-i386 kfreebsd-amd64]
-Recommends: ntpdate | ntp | time-daemon
+Recommends: ntpdate | ntp | time-daemon, bind9-host | dnsutils
 Description: SixXS Automatic IPv6 Connectivity Client Utility
  This client configures IPv6 connectivity without having to
  manually configure interfaces etc. A SixXS account or an account
