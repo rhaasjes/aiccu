@@ -7,8 +7,11 @@ aiccu (20070115-14) unstable; urgency=low
     no-upstream-changelog"
   * Add Recommends on bind9-host | dnsutils for the config script. -
     Thanks to Evgeni Golov 
+  * debian/aiccu.config:
+    + grep for "$RET", not $RET or it will fail on names with spaces. -
+    Thanks to Evgeni Golov 
 
- -- Reinier Haasjes <reinier@haasjes.com>  Thu, 26 Aug 2010 22:07:06 +0200
+ -- Reinier Haasjes <reinier@haasjes.com>  Thu, 26 Aug 2010 22:09:58 +0200
 
 aiccu (20070115-13) unstable; urgency=low
 
