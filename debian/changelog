@@ -2,8 +2,10 @@ aiccu (20070115-15) unstable; urgency=low
 
   * Upgraded standards-version to 3.9.2
   * Fix lintian error "temporary-debhelper-file postrm.debhelper"
+  * Fix "fix for kfreebsd-* dependencies" Updated control file 
+    (Closes: #634102) - Thanks to Robert Millan
 
- -- Reinier Haasjes <reinier@haasjes.com>  Tue, 01 Nov 2011 20:31:30 +0100
+ -- Reinier Haasjes <reinier@haasjes.com>  Tue, 01 Nov 2011 21:16:51 +0100
 
 aiccu (20070115-14) unstable; urgency=low
 
