@@ -1,4 +1,3 @@
-08_setup_script.patch
 01_no-shipped-init-script.patch
 02_skip-strip.patch
 03_no-quiet-gcc.patch
@@ -6,4 +5,5 @@
 05_spelling-error.patch
 06_syslog_openlog.patch
 07_allow_tunnels.patch
+08_setup_script.patch
 09_binutils_gold.patch
