@@ -4,8 +4,12 @@ aiccu (20070115-15) unstable; urgency=low
   * Fix "fix for kfreebsd-* dependencies" Updated control file (Closes: #634102)
   * Fix "please enable hardening options" Enabled all hardening options 
     (Closes: #644408)
+  * Lintian clean
+    - Remove postrm.debhelper
+    - Make non-executable debian/changelog debian/control
+    - Add description to patch/09_binutils_gold.patch
 
- -- Reinier Haasjes <reinier@haasjes.com>  Mon, 26 Mar 2012 12:18:38 +0200
+ -- Reinier Haasjes <reinier@haasjes.com>  Mon, 26 Mar 2012 12:54:54 +0200
 
 aiccu (20070115-14.1) unstable; urgency=low
 

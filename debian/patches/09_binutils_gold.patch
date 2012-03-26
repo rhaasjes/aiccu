@@ -1,3 +1,5 @@
+Make aiccu compile with ld.gold
+
 Index: aiccu-20070115/unix-console/Makefile
 ===================================================================
 --- aiccu-20070115.orig/unix-console/Makefile	2011-02-27 17:43:53.872782002 +0000
