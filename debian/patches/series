@@ -6,3 +6,4 @@
 05_spelling-error.patch
 06_syslog_openlog.patch
 07_allow_tunnels.patch
+09_binutils_gold.patch

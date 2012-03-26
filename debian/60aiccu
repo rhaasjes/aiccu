@@ -3,12 +3,24 @@
 
 CONFIG=/etc/aiccu.conf
 BINARY=/usr/sbin/aiccu
+DEFAULT=/etc/default/aiccu
 P6=/bin/ping6
 
 . "${PM_FUNCTIONS}"
 
 [ -x $BINARY ] || exit $NA
 [ -f $CONFIG ] || exit $NA
+
+# Is aiccu enabled?
+[ -r $DEFAULT ] && . $DEFAULT
+case "$AICCU_ENABLED" in
+	[Nn]*)
+		exit $NA
+		;;
+esac
+
+# Is aiccu running?
+invoke-rc.d --quiet aiccu status > /dev/null || exit $NA
 
 case "$1" in
 	hibernate|suspend)

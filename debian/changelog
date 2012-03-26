@@ -1,3 +1,18 @@
+aiccu (20070115-14.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix "/etc/pm/sleep.d/60aiccu hook may cause unacceptable resume delays":
+    check if aiccu is enabled in /etc/default/aiccu and running before trying
+    to ping/restart.
+    (Closes: #610332)
+  * Fix "Does not compile with ld.gold": add patch from Ubuntu /
+    Tarun Kumar Mall:
+    - debian/patches/09_binutils_gold.patch:
+      + patch changes unix-console/Makefile to fix FTBFS. (LP: #726121)
+    (Closes: #615897)
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 01 Feb 2012 21:46:24 +0100
+
 aiccu (20070115-14) unstable; urgency=low
 
   * Fix "preconfiguration fails" Add test to check if brokers-file exist.

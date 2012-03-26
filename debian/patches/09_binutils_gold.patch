@@ -1,0 +1,13 @@
+Index: aiccu-20070115/unix-console/Makefile
+===================================================================
+--- aiccu-20070115.orig/unix-console/Makefile	2011-02-27 17:43:53.872782002 +0000
++++ aiccu-20070115/unix-console/Makefile	2011-02-27 17:44:23.372782001 +0000
+@@ -150,7 +150,7 @@
+ all: aiccu
+ 
+ aiccu:	$(OBJS) ${SRCS} ${INCS}
+-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(OBJS)
++	$(CC) $(CFLAGS) -o $@ $(OBJS) $(LDFLAGS)
+ 
+ clean:
+ 	$(RM) -f $(OBJS) aiccu
