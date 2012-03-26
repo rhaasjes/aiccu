@@ -9,12 +9,12 @@ Vcs-Browser: http://github.com/rhaasjes/aiccu
 Vcs-Git: git://github.com/rhaasjes/aiccu.git
 
 Package: aiccu
-Architecture: any
+Architecture: linux-any kfreebsd-any
 Depends: ${misc:Depends}, ${shlibs:Depends}, debconf, lsb-base, ucf,
- iputils-ping [!kfreebsd-i386 !kfreebsd-amd64],
- iputils-tracepath [!kfreebsd-i386 !kfreebsd-amd64],
- iproute [!kfreebsd-i386 !kfreebsd-amd64],
- freebsd-net-tools [kfreebsd-i386 kfreebsd-amd64]
+ iputils-ping [linux-any],
+ iputils-tracepath [linux-any],
+ iproute [linux-any],
+ freebsd-net-tools [kfreebsd-any]
 Recommends: ntpdate | ntp | time-daemon, bind9-host | dnsutils
 Description: SixXS Automatic IPv6 Connectivity Client Utility
  This client configures IPv6 connectivity without having to

@@ -1,8 +1,9 @@
 aiccu (20070115-15) unstable; urgency=low
 
   * Upgraded standards-version to 3.9.3
+  * Fix "fix for kfreebsd-* dependencies" Updated control file (Closes: #634102)
 
- -- Reinier Haasjes <reinier@haasjes.com>  Mon, 26 Mar 2012 11:44:44 +0200
+ -- Reinier Haasjes <reinier@haasjes.com>  Mon, 26 Mar 2012 12:03:55 +0200
 
 aiccu (20070115-14.1) unstable; urgency=low
 
