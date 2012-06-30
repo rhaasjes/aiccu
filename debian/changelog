@@ -4,8 +4,10 @@ aiccu (20070115-15.1) unstable; urgency=low
   * Remove quilt usage from source format 3.0 package. Fixes FTBFS on
     kfreebsd. (Closes: #667755)
     + Remove no more needed build-dependency on quilt and README.source
+  * Add Danish translation of debconf templates by Joe Hansen (Closes:
+    #670971)
 
- -- Axel Beckert <abe@debian.org>  Sat, 30 Jun 2012 23:49:02 +0200
+ -- Axel Beckert <abe@debian.org>  Sun, 01 Jul 2012 00:06:34 +0200
 
 aiccu (20070115-15) unstable; urgency=low
 
