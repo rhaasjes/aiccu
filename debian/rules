@@ -16,15 +16,13 @@ DPKG_EXPORT_BUILDFLAGS = 1
 RPM_OPT_FLAGS = $(CFLAGS)
 export RPM_OPT_FLAGS
 
-include /usr/share/quilt/quilt.make
-
 %:
 	dh $@
 
-build: $(QUILT_STAMPFN)
+build:
 	dh $@
 
-clean: unpatch
+clean:
 	dh $@
 #	dh_testdir
 #	rm -f build-stamp configure-stamp
