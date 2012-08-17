@@ -1,11 +1,18 @@
+From: Reinier Haasjes <reinier@haasjes.com>
+Date: Fri, 17 Aug 2012 11:29:39 +0200
+Subject: no shipped init script
+
 We ship our own init.d script and do not want to see the upstream default
 for Debian installed into DESTDIR.
+---
+ Makefile |    6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
-Index: aiccu-20070115/Makefile
-===================================================================
---- aiccu-20070115.orig/Makefile	2009-10-25 22:25:45.000000000 +0100
-+++ aiccu-20070115/Makefile	2009-10-25 22:25:58.000000000 +0100
-@@ -84,9 +84,9 @@
+diff --git a/Makefile b/Makefile
+index 0e96136..3de13db 100644
+--- a/Makefile
++++ b/Makefile
+@@ -84,9 +84,9 @@ ifeq ($(shell echo "A${RPM_BUILD_ROOT}"),A)
  	@cp doc/README ${DESTDIR}${dirdoc}
  	@cp doc/LICENSE ${DESTDIR}${dirdoc}
  	@cp doc/HOWTO  ${DESTDIR}${dirdoc}

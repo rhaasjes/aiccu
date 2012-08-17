@@ -1,0 +1,22 @@
+From: Reinier Haasjes <reinier@haasjes.com>
+Date: Fri, 17 Aug 2012 11:29:39 +0200
+Subject: binutils gold
+
+Make aiccu compile with ld.gold
+---
+ unix-console/Makefile |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/unix-console/Makefile b/unix-console/Makefile
+index 69c7331..b61f928 100755
+--- a/unix-console/Makefile
++++ b/unix-console/Makefile
+@@ -150,7 +150,7 @@ endif
+ all: aiccu
+ 
+ aiccu:	$(OBJS) ${SRCS} ${INCS}
+-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(OBJS)
++	$(CC) $(CFLAGS) -o $@ $(OBJS) $(LDFLAGS)
+ 
+ clean:
+ 	$(RM) -f $(OBJS) aiccu

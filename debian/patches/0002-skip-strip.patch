@@ -1,12 +1,19 @@
+From: Reinier Haasjes <reinier@haasjes.com>
+Date: Fri, 17 Aug 2012 11:29:39 +0200
+Subject: skip strip
+
 We handle stripping of the binary through dh_strip, thus remove the
 upstream code handling that, which does not care about our Debian
 build options.
+---
+ unix-console/Makefile |    5 -----
+ 1 file changed, 5 deletions(-)
 
-Index: aiccu-20070115/unix-console/Makefile
-===================================================================
---- aiccu-20070115.orig/unix-console/Makefile	2009-10-25 22:31:57.000000000 +0100
-+++ aiccu-20070115/unix-console/Makefile	2009-10-25 22:32:04.000000000 +0100
-@@ -145,11 +145,6 @@
+diff --git a/unix-console/Makefile b/unix-console/Makefile
+index d5e5c07..f746cac 100755
+--- a/unix-console/Makefile
++++ b/unix-console/Makefile
+@@ -145,11 +145,6 @@ all: aiccu
  
  aiccu:	$(OBJS) ${SRCS} ${INCS}
  	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(OBJS)
