@@ -7,3 +7,4 @@
 0007-allow-tunnels.patch
 0008-setup-script.patch
 0009-binutils-gold.patch
+0010-gnutls-cleanup.patch
