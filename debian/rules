@@ -2,50 +2,22 @@
 # Sample debian/rules that uses debhelper.
 # GNU copyright 1997 to 1999 by Joey Hess.
 # Adjusted by Jeroen Massar <jeroen@sixxs.net> for aiccu
+# Simplified and dh-9-ified by Barak Pearlmutter, 2012
 
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-# HARDENING
-export DEB_BUILD_MAINT_OPTIONS="hardening=+pie,+bindnow" 
-
-# dpkg-buildpackage no longer exports CFLAGS/CXXFLAGS/LDFLAGS/CPPFLAGS/FFLAGS
-# http://lists.debian.org/debian-devel-announce/2011/09/msg00001.html
-DPKG_EXPORT_BUILDFLAGS = 1
--include /usr/share/dpkg/buildflags.mk
-RPM_OPT_FLAGS = $(CFLAGS)
-export RPM_OPT_FLAGS
-
 %:
-	dh $@
+	dh $@ --parallel
 
-build:
-	dh $@
+override_dh_clean:
+	@echo Fix permissions of configuration file
+	chmod a-x doc/aiccu.conf
+	@echo Fix permissions of 60aiccu file
+	chmod a+x debian/60aiccu	
+	dh_clean
 
-clean:
-	dh $@
-#	dh_testdir
-#	rm -f build-stamp configure-stamp
-#
-#	$(MAKE) clean
-#
-	# Fix permissions of configuration file
-	chmod a-x `pwd`/doc/aiccu.conf
-
-	# Fix permissions of 60aiccu file
-	chmod a+x `pwd`/debian/60aiccu
-
-	# Remove empty preinst script
-	[ -f `pwd`/debian/aiccu.preinst ] && rm `pwd`/debian/aiccu.preinst || exit 0
-
-#	dh_clean
-
-binary-arch: build install
-	dh $@
-
-install: build
-	dh $@
-	# The license is already duplicated in debian/copyright
-	rm `pwd`/debian/aiccu/usr/share/doc/aiccu/LICENSE
-
-binary: binary-arch binary-indep
+override_dh_auto_install:
+	dh_auto_install
+	@echo remove license as it is duplicated in debian/copyright
+	rm debian/aiccu/usr/share/doc/aiccu/LICENSE
