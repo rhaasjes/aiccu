@@ -1,8 +1,19 @@
-Fix some spelling errors to satisfy lintian
+From: Reinier Haasjes <reinier@haasjes.com>
+Date: Fri, 17 Aug 2012 11:29:39 +0200
+Subject: spelling error
 
---- aiccu.orig/common/aiccu_test.c
-+++ aiccu/common/aiccu_test.c
-@@ -133,7 +133,7 @@
+Fix some spelling errors to satisfy lintian
+---
+ common/aiccu_test.c |    2 +-
+ common/common.c     |    2 +-
+ common/tic.c        |    6 +++---
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/common/aiccu_test.c b/common/aiccu_test.c
+index 25bbdb2..2ac3c86 100755
+--- a/common/aiccu_test.c
++++ b/common/aiccu_test.c
+@@ -133,7 +133,7 @@ void aiccu_os_test(struct TIC_Tunnel *hTunnel, bool automatic)
  	printf("### This confirms the reachability of the other side of the tunnel\n");
  	printf("### If it doesn't reply then check your interface and routing tables\n");
  	printf("### Don't forget to check your firewall of course\n");
@@ -11,9 +22,11 @@ Fix some spelling errors to satisfy lintian
  	printf("### a firewalling and a routing/interface problem\n");
  	printf("\n");
  	system_arg(PING6, PINGCOUNT, hTunnel->sIPv6_POP);
---- aiccu.orig/common/common.c
-+++ aiccu/common/common.c
-@@ -484,7 +484,7 @@
+diff --git a/common/common.c b/common/common.c
+index 488c145..739ee9c 100755
+--- a/common/common.c
++++ b/common/common.c
+@@ -484,7 +484,7 @@ bool sock_gotls(TLSSOCKET sock)
  		return false;
  	}
  
@@ -22,9 +35,11 @@ Fix some spelling errors to satisfy lintian
  
  	sock->tls_active = true;
  	return true;
---- aiccu.orig/common/tic.c
-+++ aiccu/common/tic.c
-@@ -517,8 +517,8 @@
+diff --git a/common/tic.c b/common/tic.c
+index e0d70fe..6009d99 100755
+--- a/common/tic.c
++++ b/common/tic.c
+@@ -517,8 +517,8 @@ struct TIC_Tunnel *tic_GetTunnel(struct TIC_conf *tic, const char *sId)
  		struct in6_addr ipv6_ll, ipv6_local;
  		char ll[100];
  
@@ -35,7 +50,7 @@ Fix some spelling errors to satisfy lintian
  
  		/*
  		 * Some TUN/TAP devices don't have any
-@@ -652,7 +652,7 @@
+@@ -652,7 +652,7 @@ struct TIC_POP *tic_GetPOP(struct TIC_conf *tic, const char *sId)
  	/* All went okay? */
  	if (buf[0] == '2' && buf[1] == '0' && buf[2] == '2')
  	{

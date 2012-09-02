@@ -1,0 +1,27 @@
+From: Reinier Haasjes <reinier@haasjes.com>
+Date: Fri, 17 Aug 2012 11:29:39 +0200
+Subject: kfreebsd
+
+Debian GNU/kFreeBSD needs Linux-like resolver libraries to be linked into
+the program.  Thanks to Axel Beckert <abe@deuxchevaux.org>.
+---
+ unix-console/Makefile |    6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/unix-console/Makefile b/unix-console/Makefile
+index 15534ff..69c7331 100755
+--- a/unix-console/Makefile
++++ b/unix-console/Makefile
+@@ -68,6 +68,12 @@ CFLAGS	+= -D NEED_IFHEAD -D AICCU_TYPE="\"kame\""
+ SRCS	+= ../common/aiccu_kame.c
+ OBJS	+= ../common/aiccu_kame.o
+ endif
++
++# GNU/kFreeBSD
++ifeq ($(shell uname | grep -c "kFreeBSD"),1)
++LDFLAGS += -lpthread -lresolv
++endif
++
+ endif
+ 
+ # DragonFlyBSD

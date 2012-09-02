@@ -1,8 +1,11 @@
-commit d7c4f7c0d34b80c188fa45228ca282fd8771a41d
-Author: Norman Rasmussen <norman@rasmussen.co.za>
-Date:   Sun Jan 10 21:45:55 2010 +0000
+From: Norman Rasmussen <norman@rasmussen.co.za>
+Date: Sun, 10 Jan 2010 21:45:55 +0000
+Subject: allow tunnels
 
     Allow 'tunnels' mode when there's an already running instance.
+---
+ unix-console/main.c |   30 +++++++++++++++---------------
+ 1 file changed, 15 insertions(+), 15 deletions(-)
 
 diff --git a/unix-console/main.c b/unix-console/main.c
 index 8a4d9a9..388d988 100755
