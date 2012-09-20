@@ -1,12 +1,17 @@
 aiccu (20070115-16) UNRELEASED; urgency=low
 
+  [ Barak A. Pearlmutter ]
   * Simplify debian/rules with dh9
   * Refresh quilt patches with gbp-pq import/export
   * Quilt patch with tweaks to gnutls (closes: #624056)
   * Network ifup script, needed for aiccu to work after suspend/resume
     (Closes: #686490)
 
- -- Barak A. Pearlmutter <bap@debian.org>  Sat, 18 Aug 2012 21:51:40 +0200
+  [ Reinier Haasjes ]
+  * Fix "after about a month, routing gets wedged" Make ntp* a dependency.
+    (Closes: #678519)
+
+ -- Reinier Haasjes <reinier@haasjes.com>  Thu, 20 Sep 2012 16:23:23 +0200
 
 aiccu (20070115-15.1) unstable; urgency=low
 
