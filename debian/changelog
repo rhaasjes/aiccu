@@ -4,6 +4,7 @@ aiccu (20070115-16) UNRELEASED; urgency=low
   * Refresh quilt patches with gbp-pq import/export
   * Quilt patch with tweaks to gnutls (closes: #624056)
   * Network ifup script, needed for aiccu to work after suspend/resume
+    (Closes: #686490)
 
  -- Barak A. Pearlmutter <bap@debian.org>  Sat, 18 Aug 2012 21:51:40 +0200
 
