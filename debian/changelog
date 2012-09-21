@@ -1,4 +1,4 @@
-aiccu (20070115-16) UNRELEASED; urgency=low
+aiccu (20070115-16) unstable; urgency=low
 
   [ Barak A. Pearlmutter ]
   * Simplify debian/rules with dh9
@@ -10,8 +10,10 @@ aiccu (20070115-16) UNRELEASED; urgency=low
   [ Reinier Haasjes ]
   * Fix "after about a month, routing gets wedged" Make ntp* a dependency.
     (Closes: #678519)
+  * Fix "init script should create output when VERBOSE is off" Removed
+    verbose switches from init file (Closes: #612785)
 
- -- Reinier Haasjes <reinier@haasjes.com>  Thu, 20 Sep 2012 16:23:23 +0200
+ -- Reinier Haasjes <reinier@haasjes.com>  Fri, 21 Sep 2012 10:34:31 +0200
 
 aiccu (20070115-15.1) unstable; urgency=low
 
